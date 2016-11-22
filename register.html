@@ -8,29 +8,27 @@
 		<title>Sign In</title>
 		<link rel="stylesheet" href="lib/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/common.css" />
-		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/register.css" />
 	</head>
 	<body>
 		<div class="background-div"></div>
 		<div class="container">
 			<div class="form-pane">
-				<form class="form-signin" action="authenticate.php" method="POST">
-					<h2 class="form-signin-heading">Sign In</h2>
+				<form class="form-signin" action="register.php" method="POST" enctype="multipart/form-data">
+					<h2 class="form-signin-heading">Create New Account</h2>
 					<label for="username" class="sr-only">User Name</label>
 					<input type="text" id="username" name="username" class="form-control" placeholder="User Name" autofocus />
 					<label for="password" class="sr-only">Password</label>
 					<input type="password" id="password" name="password" class="form-control" placeholder="Password" />
-					<div class="checkbox">
-						<label><input type="checkbox" value="true" checked />Remember me</label>
-					</div>
-					<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-					<span id="helpBlock" class="help-block">New to this website?</span>
-					<a class="btn btn-md btn-default btn-block" href="register.html">Create your account</a>
+					<label for="profile" class="sr-only">Profile</label>
+					<input type="file" id="profile" name="profile" class="form-control" />
+					<div id="image-holder"></div>
+					<button class="btn btn-lg btn-primary btn-block" type="submit">Create account</button>
 				</form>
 			</div>
 		</div>
 		<script src="lib/jquery-3.1.1.min.js"></script>
 		<script src="js/common.js"></script>
-		<script src="js/index.js"></script>
+		<script src="js/register.js"></script>
 	</body>
 </html>
