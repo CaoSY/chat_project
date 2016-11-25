@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	for(let i=0; i<20; ++i) {
 		$("#contact-list").append($(`<div class="contact-list-item"><div class="avatar"><img src="img/default-user-image.svg" class="item-img img-circle center-block" /></div><div class="item-body"><div class="item-title"><p class="item-name">sed do eiusmod tempo</p></div><div class="item-info">world</div></div></div>`));
-		$("#edit-helper").children().tooltip({
+		$('[data-toggle="tooltip"]').tooltip({
 			animation: true,
 			container: "body",
 			delay: {
