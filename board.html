@@ -63,9 +63,9 @@
 						</ul>
 					</div>
 				</header>
-				<div id="chat-content" class="scrollbar">
+				<div id="chat-content">
 					<div class="chat-background"></div>
-					<div class="message-list">
+					<div class="message-list scrollbar">
 						<div class="message">
 							<div class="system-message-body">
 								<span class="system-message">Somebody creates this group</span>
@@ -99,56 +99,29 @@
 						<div class="btn-group dropup">
 							<button type="button" class="btn btn-default dropdown-toggle" id="font-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-font" data-toggle="tooltip" title="Font"></i></button>
 							<ul class="dropdown-menu" aria-labelledby="font-button">
-								<li><a style='font-family:inherit'>Default</a></li>
-								<li><a style='font-family:Georgia,serif;'>Georgia</a></li>
-								<li><a style='font-family:"Palatino Linotype","Book Antiqua",Palatino,serif'>Palatino Linotype</a></li>
-								<li><a style='font-family:"Times New Roman",Times,serif'>Times New Roman</a></li>
-								<li><a style='font-family:Arial,Helvetica,sans-serif'>Arial</a></li>
-								<li><a style='font-family:"Arial Black",Gadget,sans-serif'>Arial Black</a></li>
-								<li><a style='font-family:"Comic Sans MS",cursive,sans-serif'>Comic Sans MS</a></li>
-								<li><a style='font-family:Impact,Charcoal,sans-serif'>Impact</a></li>
-								<li><a style='font-family:"Lucida Sans Unicode","Lucida Grande",sans-serif'>Lucida Sans Unicode</a></li>
-								<li><a style='font-family:Tahoma,Geneva,sans-serif'>Tahoma</a></li>
-								<li><a style='font-family:"Trebuchet MS",Helvetica,sans-serif'>Trebuchet MS</a></li>
-								<li><a style='font-family:Verdana,Geneva,sans-serif'>Verdana</a></li>
-								<li><a style='font-family:"Courier New",Courier,monospace'>Courier New</a></li>
-								<li><a style='font-family:"Lucida Console",Monaco,monospace'>Lucida Console</a></li>
+								<!-- `<li><a style='font-family:${currentValue.value}'>${currentValue.name}</a></li>` -->
 							</ul>
 						</div>
 						<div class="btn-group dropup">
 							<button type="button" class="btn btn-default dropdown-toggle" id="bold-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-bold" data-toggle="tooltip" title="Bold"></i></button>
 							<ul class="dropdown-menu" aria-labelledby="bold-button">
-								<li><a style="font-weight:normal">Default</a></li>
-								<li><a style="font-weight:100">100</a></li>
-								<li><a style="font-weight:200">200</a></li>
-								<li><a style="font-weight:300">300</a></li>
-								<li><a style="font-weight:400">400</a></li>
-								<li><a style="font-weight:500">500</a></li>
-								<li><a style="font-weight:600">600</a></li>
-								<li><a style="font-weight:700">700</a></li>
-								<li><a style="font-weight:800">800</a></li>
-								<li><a style="font-weight:900">900</a></li>
+								<!-- `<li><a style="font-weight:${currentValue.value}">${currentValue.name}</a></li>` -->
 							</ul>
 						</div>
 						<div class="btn-group dropup">
-							<button type="button" class="btn btn-default dropdown-toggle" id="italic-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-italic" data-toggle="tooltip" title="Italic"></i></button>
+							<button type="button" class="btn btn-default" id="italic-button"><i class="glyphicon glyphicon-italic" data-toggle="tooltip" title="Italic"></i></button>
 						</div>
 						<div class="btn-group dropup">
 							<button type="button" class="btn btn-default dropdown-toggle" id="size-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-text-size" data-toggle="tooltip" title="Text Size"></i></button>
 							<ul class="dropdown-menu" aria-labelledby="size-button">
-								<li><a style="font-size:inherit">Default</a></li>
-								<li><a style="font-size:0.67em">h6</a></li>
-								<li><a style="font-size:0.83em">h5</a></li>
-								<li><a style="font-size:1em">h4</a></li>
-								<li><a style="font-size:1.17em">h3</a></li>
-								<li><a style="font-size:1.5em">h2</a></li>
-								<li><a style="font-size:2em">h1</a></li>
+								<!-- `<li><a style="font-size:${currentValue.value}">${currentValue.name}</a></li>` -->
 							</ul>
 						</div>
 						<div class="btn-group dropup">
 							<button type="button" class="btn btn-default dropdown-toggle" id="color-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-text-color" data-toggle="tooltip" title="Text Color"></i></button>
 							<ul class="dropdown-menu" aria-labelledby="color-button">
-								<li><a style="color:rgb(93, 138, 168);">Default</a></li>
+								<li><a style="color:rgb(0, 0, 0);">Default</a></li>
+								<li><a style="color:rgb(93, 138, 168);">Air Force blue</a></li>
 								<li><a style="color:rgb(227, 38, 54);">crimson</a></li>
 								<li><a style="color:rgb(255, 3, 62)">American rose</a></li>
 							</ul>
@@ -156,13 +129,13 @@
 						<div class="btn-group dropup">
 							<button type="button" class="btn btn-default dropdown-toggle" id="background-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-text-background" data-toggle="tooltip" title="Background Color"></i></button>
 							<ul class="dropdown-menu" aria-labelledby="background-button">
-								<li><a style="background-color:rgb(93, 138, 168);color:rgba(0,0,0,0);">Default</a></li>
+								<li><a style="background-color:rgb(255, 255, 255);color:rgba(0,0,0,0);">Default</a></li>
 								<li><a style="background-color:rgb(227, 38, 54);color:rgba(0,0,0,0);">crimson</a></li>
 								<li><a style="background-color:rgb(255, 3, 62);color:rgba(0,0,0,0);">American rose</a></li>  
 							</ul>
 						</div>
 					</div>
-					<div class="edit-area scrollbar" contenteditable="true"><span id="edit-content"></span></div>
+					<div class="edit-area scrollbar"><span id="edit-content" contenteditable="true">Hello, world!</span></div>
 					<!--<textarea class="scrollbar"></textarea>-->
 					<button type="button" class="btn btn-default pull-right" style="margin-top: 5px; margin-right: 10px;" id="send">Send</button>
 				</div>
@@ -175,5 +148,14 @@
 		<script src="lib/bootstrap.min.js"></script>
 		<script src="js/common.js"></script>
 		<script src="js/board.js"></script>
+		<script>
+			var User = {
+				ID: "123456789",
+				name: "hello"
+			};
+			var Room = {
+				ID: "12349879"
+			}
+		</script>
 	</body>
 </html>
