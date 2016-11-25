@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbody>
+	<tr name="Air Force blue" value="rgb(93, 138, 168)"></tr>
+	<tr name="Alice blue" value="rgb(240, 248, 255)"></tr>
+	<tr name="Alizarin crimson" value="rgb(227, 38, 54)"></tr>
+	<tr name="Almond" value="rgb(239, 222, 205)"></tr>
+	<tr name="Amaranth" value="rgb(229, 43, 80)"></tr>
+	<tr name="Amber" value="rgb(255, 191, 0)"></tr>
+	<tr name="American rose" value="rgb(255, 3, 62)"></tr>
+	<tr name="Amethyst" value="rgb(153, 102, 204)"></tr>
+	<tr name="Android Green" value="rgb(164, 198, 57)"></tr>
+	<tr name="Anti-flash white" value="rgb(242, 243, 244)"></tr>
+	<tr name="Antique brass" value="rgb(205, 149, 117)"></tr>
+	<tr name="Antique fuchsia" value="rgb(145, 92, 131)"></tr>
+	<tr name="Antique white" value="rgb(250, 235, 215)"></tr>
+	<tr name="Ao" value="rgb(0, 128, 0)"></tr>
+	<tr name="Apple green" value="rgb(141, 182, 0)"></tr>
+	<tr name="Apricot" value="rgb(251, 206, 177)"></tr>
+	<tr name="Aqua" value="rgb(0, 255, 255)"></tr>
+	<tr name="Aquamarine" value="rgb(127, 255, 212)"></tr>
+	<tr name="Army green" value="rgb(75, 83, 32)"></tr>
+	<tr name="Arylide yellow" value="rgb(233, 214, 107)"></tr>
+	<tr name="Ash grey" value="rgb(178, 190, 181)"></tr>
+	<tr name="Asparagus" value="rgb(135, 169, 107)"></tr>
+	<tr name="Atomic tangerine" value="rgb(255, 153, 102)"></tr>
+	<tr name="Auburn" value="rgb(165, 42, 42)"></tr>
+	<tr name="Aureolin" value="rgb(253, 238, 0)"></tr>
+	<tr name="AuroMetalSaurus" value="rgb(110, 127, 128)"></tr>
+	<tr name="Awesome" value="rgb(255, 32, 82)"></tr>
+	<tr name="Azure" value="rgb(0, 127, 255)"></tr>
+	<tr name="Azure mist/web" value="rgb(240, 255, 255)"></tr>
+	<tr name="Baby blue" value="rgb(137, 207, 240)"></tr>
+	<tr name="Baby blue eyes" value="rgb(161, 202, 241)"></tr>
+	<tr name="Baby pink" value="rgb(244, 194, 194)"></tr>
+	<tr name="Ball Blue" value="rgb(33, 171, 205)"></tr>
+	<tr name="Banana Mania" value="rgb(250, 231, 181)"></tr>
+	<tr name="Banana yellow" value="rgb(255, 225, 53)"></tr>
+	<tr name="Battleship grey" value="rgb(132, 132, 130)"></tr>
+	<tr name="Bazaar" value="rgb(152, 119, 123)"></tr>
+	<tr name="Beau blue" value="rgb(188, 212, 230)"></tr>
+	<tr name="Beaver" value="rgb(159, 129, 112)"></tr>
+	<tr name="Beige" value="rgb(245, 245, 220)"></tr>
+	<tr name="Bisque" value="rgb(255, 228, 196)"></tr>
+	<tr name="Bistre" value="rgb(61, 43, 31)"></tr>
+	<tr name="Bittersweet" value="rgb(254, 111, 94)"></tr>
+	<tr name="Black" value="rgb(0, 0, 0)"></tr>
+	<tr name="Blanched Almond" value="rgb(255, 235, 205)"></tr>
+	<tr name="Bleu de France" value="rgb(49, 140, 231)"></tr>
+	<tr name="Blizzard Blue" value="rgb(172, 229, 238)"></tr>
+	<tr name="Blond" value="rgb(250, 240, 190)"></tr>
+	<tr name="Blue" value="rgb(0, 0, 255)"></tr>
+	<tr name="Blue Bell" value="rgb(162, 162, 208)"></tr>
+	<tr name="Blue Gray" value="rgb(102, 153, 204)"></tr>
+	<tr name="Blue green" value="rgb(13, 152, 186)"></tr>
+	<tr name="Blue purple" value="rgb(138, 43, 226)"></tr>
+	<tr name="Blue violet" value="rgb(138, 43, 226)"></tr>
+	<tr name="Blush" value="rgb(222, 93, 131)"></tr>
+	<tr name="Bole" value="rgb(121, 68, 59)"></tr>
+	<tr name="Bondi blue" value="rgb(0, 149, 182)"></tr>
+	<tr name="Bone" value="rgb(227, 218, 201)"></tr>
+	<tr name="Boston University Red" value="rgb(204, 0, 0)"></tr>
+	<tr name="Bottle green" value="rgb(0, 106, 78)"></tr>
+	<tr name="Boysenberry" value="rgb(135, 50, 96)"></tr>
+	<tr name="Brandeis blue" value="rgb(0, 112, 255)"></tr>
+	<tr name="Brass" value="rgb(181, 166, 66)"></tr>
+	<tr name="Brick red" value="rgb(203, 65, 84)"></tr>
+	<tr name="Bright cerulean" value="rgb(29, 172, 214)"></tr>
+	<tr name="Bright green" value="rgb(102, 255, 0)"></tr>
+	<tr name="Bright lavender" value="rgb(191, 148, 228)"></tr>
+	<tr name="Bright maroon" value="rgb(195, 33, 72)"></tr>
+	<tr name="Bright pink" value="rgb(255, 0, 127)"></tr>
+	<tr name="Bright turquoise" value="rgb(8, 232, 222)"></tr>
+	<tr name="Bright ube" value="rgb(209, 159, 232)"></tr>
+	<tr name="Brilliant lavender" value="rgb(244, 187, 255)"></tr>
+	<tr name="Brilliant rose" value="rgb(255, 85, 163)"></tr>
+	<tr name="Brink pink" value="rgb(251, 96, 127)"></tr>
+	<tr name="British racing green" value="rgb(0, 66, 37)"></tr>
+	<tr name="Bronze" value="rgb(205, 127, 50)"></tr>
+	<tr name="Brown" value="rgb(165, 42, 42)"></tr>
+	<tr name="Bubble gum" value="rgb(255, 193, 204)"></tr>
+	<tr name="Bubbles" value="rgb(231, 254, 255)"></tr>
+	<tr name="Buff" value="rgb(240, 220, 130)"></tr>
+	<tr name="Bulgarian rose" value="rgb(72, 6, 7)"></tr>
+	<tr name="Burgundy" value="rgb(128, 0, 32)"></tr>
+	<tr name="Burlywood" value="rgb(222, 184, 135)"></tr>
+	<tr name="Burnt orange" value="rgb(204, 85, 0)"></tr>
+	<tr name="Burnt sienna" value="rgb(233, 116, 81)"></tr>
+	<tr name="Burnt umber" value="rgb(138, 51, 36)"></tr>
+	<tr name="Byzantine" value="rgb(189, 51, 164)"></tr>
+	<tr name="Byzantium" value="rgb(112, 41, 99)"></tr>
+	<tr name="CG Blue" value="rgb(0, 122, 165)"></tr>
+	<tr name="CG Red" value="rgb(224, 60, 49)"></tr>
+	<tr name="Cadet" value="rgb(83, 104, 114)"></tr>
+	<tr name="Cadet blue" value="rgb(95, 158, 160)"></tr>
+	<tr name="Cadet grey" value="rgb(145, 163, 176)"></tr>
+	<tr name="Cadmium green" value="rgb(0, 107, 60)"></tr>
+	<tr name="Cadmium orange" value="rgb(237, 135, 45)"></tr>
+	<tr name="Cadmium red" value="rgb(227, 0, 34)"></tr>
+	<tr name="Cadmium yellow" value="rgb(255, 246, 0)"></tr>
+	<tr name="Café au lait" value="rgb(166, 123, 91)"></tr>
+	<tr name="Café noir" value="rgb(75, 54, 33)"></tr>
+	<tr name="Cal Poly Pomona green" value="rgb(30, 77, 43)"></tr>
+	<tr name="Cambridge Blue" value="rgb(163, 193, 173)"></tr>
+	<tr name="Camel" value="rgb(193, 154, 107)"></tr>
+	<tr name="Camouflage green" value="rgb(120, 134, 107)"></tr>
+	<tr name="Canary" value="rgb(255, 255, 153)"></tr>
+	<tr name="Canary yellow" value="rgb(255, 239, 0)"></tr>
+	<tr name="Candy apple red" value="rgb(255, 8, 0)"></tr>
+	<tr name="Candy pink" value="rgb(228, 113, 122)"></tr>
+	<tr name="Capri" value="rgb(0, 191, 255)"></tr>
+	<tr name="Caput mortuum" value="rgb(89, 39, 32)"></tr>
+	<tr name="Cardinal" value="rgb(196, 30, 58)"></tr>
+	<tr name="Caribbean green" value="rgb(0, 204, 153)"></tr>
+	<tr name="Carmine" value="rgb(255, 0, 64)"></tr>
+	<tr name="Carmine pink" value="rgb(235, 76, 66)"></tr>
+	<tr name="Carmine red" value="rgb(255, 0, 56)"></tr>
+	<tr name="Carnation pink" value="rgb(255, 166, 201)"></tr>
+	<tr name="Carnelian" value="rgb(179, 27, 27)"></tr>
+	<tr name="Carolina blue" value="rgb(153, 186, 221)"></tr>
+	<tr name="Carrot orange" value="rgb(237, 145, 33)"></tr>
+	<tr name="Celadon" value="rgb(172, 225, 175)"></tr>
+	<tr name="Celeste" value="rgb(178, 255, 255)"></tr>
+	<tr name="Celestial blue" value="rgb(73, 151, 208)"></tr>
+	<tr name="Cerise" value="rgb(222, 49, 99)"></tr>
+	<tr name="Cerise pink" value="rgb(236, 59, 131)"></tr>
+	<tr name="Cerulean" value="rgb(0, 123, 167)"></tr>
+	<tr name="Cerulean blue" value="rgb(42, 82, 190)"></tr>
+	<tr name="Chamoisee" value="rgb(160, 120, 90)"></tr>
+	<tr name="Champagne" value="rgb(250, 214, 165)"></tr>
+	<tr name="Charcoal" value="rgb(54, 69, 79)"></tr>
+	<tr name="Chartreuse" value="rgb(127, 255, 0)"></tr>
+	<tr name="Cherry" value="rgb(222, 49, 99)"></tr>
+	<tr name="Cherry blossom pink" value="rgb(255, 183, 197)"></tr>
+	<tr name="Chestnut" value="rgb(205, 92, 92)"></tr>
+	<tr name="Chocolate" value="rgb(210, 105, 30)"></tr>
+	<tr name="Chrome yellow" value="rgb(255, 167, 0)"></tr>
+	<tr name="Cinereous" value="rgb(152, 129, 123)"></tr>
+	<tr name="Cinnabar" value="rgb(227, 66, 52)"></tr>
+	<tr name="Cinnamon" value="rgb(210, 105, 30)"></tr>
+	<tr name="Citrine" value="rgb(228, 208, 10)"></tr>
+	<tr name="Classic rose" value="rgb(251, 204, 231)"></tr>
+	<tr name="Cobalt" value="rgb(0, 71, 171)"></tr>
+	<tr name="Cocoa brown" value="rgb(210, 105, 30)"></tr>
+	<tr name="Coffee" value="rgb(111, 78, 55)"></tr>
+	<tr name="Columbia blue" value="rgb(155, 221, 255)"></tr>
+	<tr name="Cool black" value="rgb(0, 46, 99)"></tr>
+	<tr name="Cool grey" value="rgb(140, 146, 172)"></tr>
+	<tr name="Copper" value="rgb(184, 115, 51)"></tr>
+	<tr name="Copper rose" value="rgb(153, 102, 102)"></tr>
+	<tr name="Coquelicot" value="rgb(255, 56, 0)"></tr>
+	<tr name="Coral" value="rgb(255, 127, 80)"></tr>
+	<tr name="Coral pink" value="rgb(248, 131, 121)"></tr>
+	<tr name="Coral red" value="rgb(255, 64, 64)"></tr>
+	<tr name="Cordovan" value="rgb(137, 63, 69)"></tr>
+	<tr name="Corn" value="rgb(251, 236, 93)"></tr>
+	<tr name="Cornell Red" value="rgb(179, 27, 27)"></tr>
+	<tr name="Cornflower" value="rgb(154, 206, 235)"></tr>
+	<tr name="Cornflower blue" value="rgb(100, 149, 237)"></tr>
+	<tr name="Cornsilk" value="rgb(255, 248, 220)"></tr>
+	<tr name="Cosmic latte" value="rgb(255, 248, 231)"></tr>
+	<tr name="Cotton candy" value="rgb(255, 188, 217)"></tr>
+	<tr name="Cream" value="rgb(255, 253, 208)"></tr>
+	<tr name="Crimson" value="rgb(220, 20, 60)"></tr>
+	<tr name="Crimson Red" value="rgb(153, 0, 0)"></tr>
+	<tr name="Crimson glory" value="rgb(190, 0, 50)"></tr>
+	<tr name="Cyan" value="rgb(0, 255, 255)"></tr>
+	<tr name="Daffodil" value="rgb(255, 255, 49)"></tr>
+	<tr name="Dandelion" value="rgb(240, 225, 48)"></tr>
+	<tr name="Dark blue" value="rgb(0, 0, 139)"></tr>
+	<tr name="Dark brown" value="rgb(101, 67, 33)"></tr>
+	<tr name="Dark byzantium" value="rgb(93, 57, 84)"></tr>
+	<tr name="Dark candy apple red" value="rgb(164, 0, 0)"></tr>
+	<tr name="Dark cerulean" value="rgb(8, 69, 126)"></tr>
+	<tr name="Dark chestnut" value="rgb(152, 105, 96)"></tr>
+	<tr name="Dark coral" value="rgb(205, 91, 69)"></tr>
+	<tr name="Dark cyan" value="rgb(0, 139, 139)"></tr>
+	<tr name="Dark electric blue" value="rgb(83, 104, 120)"></tr>
+	<tr name="Dark goldenrod" value="rgb(184, 134, 11)"></tr>
+	<tr name="Dark gray" value="rgb(169, 169, 169)"></tr>
+	<tr name="Dark green" value="rgb(1, 50, 32)"></tr>
+	<tr name="Dark jungle green" value="rgb(26, 36, 33)"></tr>
+	<tr name="Dark khaki" value="rgb(189, 183, 107)"></tr>
+	<tr name="Dark lava" value="rgb(72, 60, 50)"></tr>
+	<tr name="Dark lavender" value="rgb(115, 79, 150)"></tr>
+	<tr name="Dark magenta" value="rgb(139, 0, 139)"></tr>
+	<tr name="Dark midnight blue" value="rgb(0, 51, 102)"></tr>
+	<tr name="Dark olive green" value="rgb(85, 107, 47)"></tr>
+	<tr name="Dark orange" value="rgb(255, 140, 0)"></tr>
+	<tr name="Dark orchid" value="rgb(153, 50, 204)"></tr>
+	<tr name="Dark pastel blue" value="rgb(119, 158, 203)"></tr>
+	<tr name="Dark pastel green" value="rgb(3, 192, 60)"></tr>
+	<tr name="Dark pastel purple" value="rgb(150, 111, 214)"></tr>
+	<tr name="Dark pastel red" value="rgb(194, 59, 34)"></tr>
+	<tr name="Dark pink" value="rgb(231, 84, 128)"></tr>
+	<tr name="Dark powder blue" value="rgb(0, 51, 153)"></tr>
+	<tr name="Dark raspberry" value="rgb(135, 38, 87)"></tr>
+	<tr name="Dark red" value="rgb(139, 0, 0)"></tr>
+	<tr name="Dark salmon" value="rgb(233, 150, 122)"></tr>
+	<tr name="Dark scarlet" value="rgb(86, 3, 25)"></tr>
+	<tr name="Dark sea green" value="rgb(143, 188, 143)"></tr>
+	<tr name="Dark sienna" value="rgb(60, 20, 20)"></tr>
+	<tr name="Dark slate blue" value="rgb(72, 61, 139)"></tr>
+	<tr name="Dark slate gray" value="rgb(47, 79, 79)"></tr>
+	<tr name="Dark spring green" value="rgb(23, 114, 69)"></tr>
+	<tr name="Dark tan" value="rgb(145, 129, 81)"></tr>
+	<tr name="Dark tangerine" value="rgb(255, 168, 18)"></tr>
+	<tr name="Dark taupe" value="rgb(72, 60, 50)"></tr>
+	<tr name="Dark terra cotta" value="rgb(204, 78, 92)"></tr>
+	<tr name="Dark turquoise" value="rgb(0, 206, 209)"></tr>
+	<tr name="Dark violet" value="rgb(148, 0, 211)"></tr>
+	<tr name="Dartmouth green" value="rgb(0, 105, 62)"></tr>
+	<tr name="Davy grey" value="rgb(85, 85, 85)"></tr>
+	<tr name="Debian red" value="rgb(215, 10, 83)"></tr>
+	<tr name="Deep carmine" value="rgb(169, 32, 62)"></tr>
+	<tr name="Deep carmine pink" value="rgb(239, 48, 56)"></tr>
+	<tr name="Deep carrot orange" value="rgb(233, 105, 44)"></tr>
+	<tr name="Deep cerise" value="rgb(218, 50, 135)"></tr>
+	<tr name="Deep champagne" value="rgb(250, 214, 165)"></tr>
+	<tr name="Deep chestnut" value="rgb(185, 78, 72)"></tr>
+	<tr name="Deep coffee" value="rgb(112, 66, 65)"></tr>
+	<tr name="Deep fuchsia" value="rgb(193, 84, 193)"></tr>
+	<tr name="Deep jungle green" value="rgb(0, 75, 73)"></tr>
+	<tr name="Deep lilac" value="rgb(153, 85, 187)"></tr>
+	<tr name="Deep magenta" value="rgb(204, 0, 204)"></tr>
+	<tr name="Deep peach" value="rgb(255, 203, 164)"></tr>
+	<tr name="Deep pink" value="rgb(255, 20, 147)"></tr>
+	<tr name="Deep saffron" value="rgb(255, 153, 51)"></tr>
+	<tr name="Deep sky blue" value="rgb(0, 191, 255)"></tr>
+	<tr name="Denim" value="rgb(21, 96, 189)"></tr>
+	<tr name="Desert" value="rgb(193, 154, 107)"></tr>
+	<tr name="Desert sand" value="rgb(237, 201, 175)"></tr>
+	<tr name="Dim gray" value="rgb(105, 105, 105)"></tr>
+	<tr name="Dodger blue" value="rgb(30, 144, 255)"></tr>
+	<tr name="Dogwood rose" value="rgb(215, 24, 104)"></tr>
+	<tr name="Dollar bill" value="rgb(133, 187, 101)"></tr>
+	<tr name="Drab" value="rgb(150, 113, 23)"></tr>
+	<tr name="Duke blue" value="rgb(0, 0, 156)"></tr>
+	<tr name="Earth yellow" value="rgb(225, 169, 95)"></tr>
+	<tr name="Ecru" value="rgb(194, 178, 128)"></tr>
+	<tr name="Eggplant" value="rgb(97, 64, 81)"></tr>
+	<tr name="Eggshell" value="rgb(240, 234, 214)"></tr>
+	<tr name="Egyptian blue" value="rgb(16, 52, 166)"></tr>
+	<tr name="Electric blue" value="rgb(125, 249, 255)"></tr>
+	<tr name="Electric crimson" value="rgb(255, 0, 63)"></tr>
+	<tr name="Electric cyan" value="rgb(0, 255, 255)"></tr>
+	<tr name="Electric green" value="rgb(0, 255, 0)"></tr>
+	<tr name="Electric indigo" value="rgb(111, 0, 255)"></tr>
+	<tr name="Electric lavender" value="rgb(244, 187, 255)"></tr>
+	<tr name="Electric lime" value="rgb(204, 255, 0)"></tr>
+	<tr name="Electric purple" value="rgb(191, 0, 255)"></tr>
+	<tr name="Electric ultramarine" value="rgb(63, 0, 255)"></tr>
+	<tr name="Electric violet" value="rgb(143, 0, 255)"></tr>
+	<tr name="Electric yellow" value="rgb(255, 255, 0)"></tr>
+	<tr name="Emerald" value="rgb(80, 200, 120)"></tr>
+	<tr name="Eton blue" value="rgb(150, 200, 162)"></tr>
+	<tr name="Fallow" value="rgb(193, 154, 107)"></tr>
+	<tr name="Falu red" value="rgb(128, 24, 24)"></tr>
+	<tr name="Famous" value="rgb(255, 0, 255)"></tr>
+	<tr name="Fandango" value="rgb(181, 51, 137)"></tr>
+	<tr name="Fashion fuchsia" value="rgb(244, 0, 161)"></tr>
+	<tr name="Fawn" value="rgb(229, 170, 112)"></tr>
+	<tr name="Feldgrau" value="rgb(77, 93, 83)"></tr>
+	<tr name="Fern" value="rgb(113, 188, 120)"></tr>
+	<tr name="Fern green" value="rgb(79, 121, 66)"></tr>
+	<tr name="Ferrari Red" value="rgb(255, 40, 0)"></tr>
+	<tr name="Field drab" value="rgb(108, 84, 30)"></tr>
+	<tr name="Fire engine red" value="rgb(206, 32, 41)"></tr>
+	<tr name="Firebrick" value="rgb(178, 34, 34)"></tr>
+	<tr name="Flame" value="rgb(226, 88, 34)"></tr>
+	<tr name="Flamingo pink" value="rgb(252, 142, 172)"></tr>
+	<tr name="Flavescent" value="rgb(247, 233, 142)"></tr>
+	<tr name="Flax" value="rgb(238, 220, 130)"></tr>
+	<tr name="Floral white" value="rgb(255, 250, 240)"></tr>
+	<tr name="Fluorescent orange" value="rgb(255, 191, 0)"></tr>
+	<tr name="Fluorescent pink" value="rgb(255, 20, 147)"></tr>
+	<tr name="Fluorescent yellow" value="rgb(204, 255, 0)"></tr>
+	<tr name="Folly" value="rgb(255, 0, 79)"></tr>
+	<tr name="Forest green" value="rgb(34, 139, 34)"></tr>
+	<tr name="French beige" value="rgb(166, 123, 91)"></tr>
+	<tr name="French blue" value="rgb(0, 114, 187)"></tr>
+	<tr name="French lilac" value="rgb(134, 96, 142)"></tr>
+	<tr name="French rose" value="rgb(246, 74, 138)"></tr>
+	<tr name="Fuchsia" value="rgb(255, 0, 255)"></tr>
+	<tr name="Fuchsia pink" value="rgb(255, 119, 255)"></tr>
+	<tr name="Fulvous" value="rgb(228, 132, 0)"></tr>
+	<tr name="Fuzzy Wuzzy" value="rgb(204, 102, 102)"></tr>
+	<tr name="Gainsboro" value="rgb(220, 220, 220)"></tr>
+	<tr name="Gamboge" value="rgb(228, 155, 15)"></tr>
+	<tr name="Ghost white" value="rgb(248, 248, 255)"></tr>
+	<tr name="Ginger" value="rgb(176, 101, 0)"></tr>
+	<tr name="Glaucous" value="rgb(96, 130, 182)"></tr>
+	<tr name="Glitter" value="rgb(230, 232, 250)"></tr>
+	<tr name="Gold" value="rgb(255, 215, 0)"></tr>
+	<tr name="Golden brown" value="rgb(153, 101, 21)"></tr>
+	<tr name="Golden poppy" value="rgb(252, 194, 0)"></tr>
+	<tr name="Golden yellow" value="rgb(255, 223, 0)"></tr>
+	<tr name="Goldenrod" value="rgb(218, 165, 32)"></tr>
+	<tr name="Granny Smith Apple" value="rgb(168, 228, 160)"></tr>
+	<tr name="Gray" value="rgb(128, 128, 128)"></tr>
+	<tr name="Gray asparagus" value="rgb(70, 89, 69)"></tr>
+	<tr name="Green" value="rgb(0, 255, 0)"></tr>
+	<tr name="Green Blue" value="rgb(17, 100, 180)"></tr>
+	<tr name="Green yellow" value="rgb(173, 255, 47)"></tr>
+	<tr name="Grullo" value="rgb(169, 154, 134)"></tr>
+	<tr name="Guppie green" value="rgb(0, 255, 127)"></tr>
+	<tr name="Halayà úbe" value="rgb(102, 56, 84)"></tr>
+	<tr name="Han blue" value="rgb(68, 108, 207)"></tr>
+	<tr name="Han purple" value="rgb(82, 24, 250)"></tr>
+	<tr name="Hansa yellow" value="rgb(233, 214, 107)"></tr>
+	<tr name="Harlequin" value="rgb(63, 255, 0)"></tr>
+	<tr name="Harvard crimson" value="rgb(201, 0, 22)"></tr>
+	<tr name="Harvest Gold" value="rgb(218, 145, 0)"></tr>
+	<tr name="Heart Gold" value="rgb(128, 128, 0)"></tr>
+	<tr name="Heliotrope" value="rgb(223, 115, 255)"></tr>
+	<tr name="Hollywood cerise" value="rgb(244, 0, 161)"></tr>
+	<tr name="Honeydew" value="rgb(240, 255, 240)"></tr>
+	<tr name="Hooker green" value="rgb(73, 121, 107)"></tr>
+	<tr name="Hot magenta" value="rgb(255, 29, 206)"></tr>
+	<tr name="Hot pink" value="rgb(255, 105, 180)"></tr>
+	<tr name="Hunter green" value="rgb(53, 94, 59)"></tr>
+	<tr name="Icterine" value="rgb(252, 247, 94)"></tr>
+	<tr name="Inchworm" value="rgb(178, 236, 93)"></tr>
+	<tr name="India green" value="rgb(19, 136, 8)"></tr>
+	<tr name="Indian red" value="rgb(205, 92, 92)"></tr>
+	<tr name="Indian yellow" value="rgb(227, 168, 87)"></tr>
+	<tr name="Indigo" value="rgb(75, 0, 130)"></tr>
+	<tr name="International Klein Blue" value="rgb(0, 47, 167)"></tr>
+	<tr name="International orange" value="rgb(255, 79, 0)"></tr>
+	<tr name="Iris" value="rgb(90, 79, 207)"></tr>
+	<tr name="Isabelline" value="rgb(244, 240, 236)"></tr>
+	<tr name="Islamic green" value="rgb(0, 144, 0)"></tr>
+	<tr name="Ivory" value="rgb(255, 255, 240)"></tr>
+	<tr name="Jade" value="rgb(0, 168, 107)"></tr>
+	<tr name="Jasmine" value="rgb(248, 222, 126)"></tr>
+	<tr name="Jasper" value="rgb(215, 59, 62)"></tr>
+	<tr name="Jazzberry jam" value="rgb(165, 11, 94)"></tr>
+	<tr name="Jonquil" value="rgb(250, 218, 94)"></tr>
+	<tr name="June bud" value="rgb(189, 218, 87)"></tr>
+	<tr name="Jungle green" value="rgb(41, 171, 135)"></tr>
+	<tr name="KU Crimson" value="rgb(232, 0, 13)"></tr>
+	<tr name="Kelly green" value="rgb(76, 187, 23)"></tr>
+	<tr name="Khaki" value="rgb(195, 176, 145)"></tr>
+	<tr name="La Salle Green" value="rgb(8, 120, 48)"></tr>
+	<tr name="Languid lavender" value="rgb(214, 202, 221)"></tr>
+	<tr name="Lapis lazuli" value="rgb(38, 97, 156)"></tr>
+	<tr name="Laser Lemon" value="rgb(254, 254, 34)"></tr>
+	<tr name="Laurel green" value="rgb(169, 186, 157)"></tr>
+	<tr name="Lava" value="rgb(207, 16, 32)"></tr>
+	<tr name="Lavender" value="rgb(230, 230, 250)"></tr>
+	<tr name="Lavender blue" value="rgb(204, 204, 255)"></tr>
+	<tr name="Lavender blush" value="rgb(255, 240, 245)"></tr>
+	<tr name="Lavender gray" value="rgb(196, 195, 208)"></tr>
+	<tr name="Lavender indigo" value="rgb(148, 87, 235)"></tr>
+	<tr name="Lavender magenta" value="rgb(238, 130, 238)"></tr>
+	<tr name="Lavender mist" value="rgb(230, 230, 250)"></tr>
+	<tr name="Lavender pink" value="rgb(251, 174, 210)"></tr>
+	<tr name="Lavender purple" value="rgb(150, 123, 182)"></tr>
+	<tr name="Lavender rose" value="rgb(251, 160, 227)"></tr>
+	<tr name="Lawn green" value="rgb(124, 252, 0)"></tr>
+	<tr name="Lemon" value="rgb(255, 247, 0)"></tr>
+	<tr name="Lemon Yellow" value="rgb(255, 244, 79)"></tr>
+	<tr name="Lemon chiffon" value="rgb(255, 250, 205)"></tr>
+	<tr name="Lemon lime" value="rgb(191, 255, 0)"></tr>
+	<tr name="Light Crimson" value="rgb(245, 105, 145)"></tr>
+	<tr name="Light Thulian pink" value="rgb(230, 143, 172)"></tr>
+	<tr name="Light apricot" value="rgb(253, 213, 177)"></tr>
+	<tr name="Light blue" value="rgb(173, 216, 230)"></tr>
+	<tr name="Light brown" value="rgb(181, 101, 29)"></tr>
+	<tr name="Light carmine pink" value="rgb(230, 103, 113)"></tr>
+	<tr name="Light coral" value="rgb(240, 128, 128)"></tr>
+	<tr name="Light cornflower blue" value="rgb(147, 204, 234)"></tr>
+	<tr name="Light cyan" value="rgb(224, 255, 255)"></tr>
+	<tr name="Light fuchsia pink" value="rgb(249, 132, 239)"></tr>
+	<tr name="Light goldenrod yellow" value="rgb(250, 250, 210)"></tr>
+	<tr name="Light gray" value="rgb(211, 211, 211)"></tr>
+	<tr name="Light green" value="rgb(144, 238, 144)"></tr>
+	<tr name="Light khaki" value="rgb(240, 230, 140)"></tr>
+	<tr name="Light pastel purple" value="rgb(177, 156, 217)"></tr>
+	<tr name="Light pink" value="rgb(255, 182, 193)"></tr>
+	<tr name="Light salmon" value="rgb(255, 160, 122)"></tr>
+	<tr name="Light salmon pink" value="rgb(255, 153, 153)"></tr>
+	<tr name="Light sea green" value="rgb(32, 178, 170)"></tr>
+	<tr name="Light sky blue" value="rgb(135, 206, 250)"></tr>
+	<tr name="Light slate gray" value="rgb(119, 136, 153)"></tr>
+	<tr name="Light taupe" value="rgb(179, 139, 109)"></tr>
+	<tr name="Light yellow" value="rgb(255, 255, 237)"></tr>
+	<tr name="Lilac" value="rgb(200, 162, 200)"></tr>
+	<tr name="Lime" value="rgb(191, 255, 0)"></tr>
+	<tr name="Lime green" value="rgb(50, 205, 50)"></tr>
+	<tr name="Lincoln green" value="rgb(25, 89, 5)"></tr>
+	<tr name="Linen" value="rgb(250, 240, 230)"></tr>
+	<tr name="Lion" value="rgb(193, 154, 107)"></tr>
+	<tr name="Liver" value="rgb(83, 75, 79)"></tr>
+	<tr name="Lust" value="rgb(230, 32, 32)"></tr>
+	<tr name="MSU Green" value="rgb(24, 69, 59)"></tr>
+	<tr name="Macaroni and Cheese" value="rgb(255, 189, 136)"></tr>
+	<tr name="Magenta" value="rgb(255, 0, 255)"></tr>
+	<tr name="Magic mint" value="rgb(170, 240, 209)"></tr>
+	<tr name="Magnolia" value="rgb(248, 244, 255)"></tr>
+	<tr name="Mahogany" value="rgb(192, 64, 0)"></tr>
+	<tr name="Maize" value="rgb(251, 236, 93)"></tr>
+	<tr name="Majorelle Blue" value="rgb(96, 80, 220)"></tr>
+	<tr name="Malachite" value="rgb(11, 218, 81)"></tr>
+	<tr name="Manatee" value="rgb(151, 154, 170)"></tr>
+	<tr name="Mango Tango" value="rgb(255, 130, 67)"></tr>
+	<tr name="Mantis" value="rgb(116, 195, 101)"></tr>
+	<tr name="Maroon" value="rgb(128, 0, 0)"></tr>
+	<tr name="Mauve" value="rgb(224, 176, 255)"></tr>
+	<tr name="Mauve taupe" value="rgb(145, 95, 109)"></tr>
+	<tr name="Mauvelous" value="rgb(239, 152, 170)"></tr>
+	<tr name="Maya blue" value="rgb(115, 194, 251)"></tr>
+	<tr name="Meat brown" value="rgb(229, 183, 59)"></tr>
+	<tr name="Medium Persian blue" value="rgb(0, 103, 165)"></tr>
+	<tr name="Medium aquamarine" value="rgb(102, 221, 170)"></tr>
+	<tr name="Medium blue" value="rgb(0, 0, 205)"></tr>
+	<tr name="Medium candy apple red" value="rgb(226, 6, 44)"></tr>
+	<tr name="Medium carmine" value="rgb(175, 64, 53)"></tr>
+	<tr name="Medium champagne" value="rgb(243, 229, 171)"></tr>
+	<tr name="Medium electric blue" value="rgb(3, 80, 150)"></tr>
+	<tr name="Medium jungle green" value="rgb(28, 53, 45)"></tr>
+	<tr name="Medium lavender magenta" value="rgb(221, 160, 221)"></tr>
+	<tr name="Medium orchid" value="rgb(186, 85, 211)"></tr>
+	<tr name="Medium purple" value="rgb(147, 112, 219)"></tr>
+	<tr name="Medium red violet" value="rgb(187, 51, 133)"></tr>
+	<tr name="Medium sea green" value="rgb(60, 179, 113)"></tr>
+	<tr name="Medium slate blue" value="rgb(123, 104, 238)"></tr>
+	<tr name="Medium spring bud" value="rgb(201, 220, 135)"></tr>
+	<tr name="Medium spring green" value="rgb(0, 250, 154)"></tr>
+	<tr name="Medium taupe" value="rgb(103, 76, 71)"></tr>
+	<tr name="Medium teal blue" value="rgb(0, 84, 180)"></tr>
+	<tr name="Medium turquoise" value="rgb(72, 209, 204)"></tr>
+	<tr name="Medium violet red" value="rgb(199, 21, 133)"></tr>
+	<tr name="Melon" value="rgb(253, 188, 180)"></tr>
+	<tr name="Midnight blue" value="rgb(25, 25, 112)"></tr>
+	<tr name="Midnight green" value="rgb(0, 73, 83)"></tr>
+	<tr name="Mikado yellow" value="rgb(255, 196, 12)"></tr>
+	<tr name="Mint" value="rgb(62, 180, 137)"></tr>
+	<tr name="Mint cream" value="rgb(245, 255, 250)"></tr>
+	<tr name="Mint green" value="rgb(152, 255, 152)"></tr>
+	<tr name="Misty rose" value="rgb(255, 228, 225)"></tr>
+	<tr name="Moccasin" value="rgb(250, 235, 215)"></tr>
+	<tr name="Mode beige" value="rgb(150, 113, 23)"></tr>
+	<tr name="Moonstone blue" value="rgb(115, 169, 194)"></tr>
+	<tr name="Mordant red 19" value="rgb(174, 12, 0)"></tr>
+	<tr name="Moss green" value="rgb(173, 223, 173)"></tr>
+	<tr name="Mountain Meadow" value="rgb(48, 186, 143)"></tr>
+	<tr name="Mountbatten pink" value="rgb(153, 122, 141)"></tr>
+	<tr name="Mulberry" value="rgb(197, 75, 140)"></tr>
+	<tr name="Munsell" value="rgb(242, 243, 244)"></tr>
+	<tr name="Mustard" value="rgb(255, 219, 88)"></tr>
+	<tr name="Myrtle" value="rgb(33, 66, 30)"></tr>
+	<tr name="Nadeshiko pink" value="rgb(246, 173, 198)"></tr>
+	<tr name="Napier green" value="rgb(42, 128, 0)"></tr>
+	<tr name="Naples yellow" value="rgb(250, 218, 94)"></tr>
+	<tr name="Navajo white" value="rgb(255, 222, 173)"></tr>
+	<tr name="Navy blue" value="rgb(0, 0, 128)"></tr>
+	<tr name="Neon Carrot" value="rgb(255, 163, 67)"></tr>
+	<tr name="Neon fuchsia" value="rgb(254, 89, 194)"></tr>
+	<tr name="Neon green" value="rgb(57, 255, 20)"></tr>
+	<tr name="Non-photo blue" value="rgb(164, 221, 237)"></tr>
+	<tr name="North Texas Green" value="rgb(5, 144, 51)"></tr>
+	<tr name="Ocean Boat Blue" value="rgb(0, 119, 190)"></tr>
+	<tr name="Ochre" value="rgb(204, 119, 34)"></tr>
+	<tr name="Office green" value="rgb(0, 128, 0)"></tr>
+	<tr name="Old gold" value="rgb(207, 181, 59)"></tr>
+	<tr name="Old lace" value="rgb(253, 245, 230)"></tr>
+	<tr name="Old lavender" value="rgb(121, 104, 120)"></tr>
+	<tr name="Old mauve" value="rgb(103, 49, 71)"></tr>
+	<tr name="Old rose" value="rgb(192, 128, 129)"></tr>
+	<tr name="Olive" value="rgb(128, 128, 0)"></tr>
+	<tr name="Olive Drab" value="rgb(107, 142, 35)"></tr>
+	<tr name="Olive Green" value="rgb(186, 184, 108)"></tr>
+	<tr name="Olivine" value="rgb(154, 185, 115)"></tr>
+	<tr name="Onyx" value="rgb(15, 15, 15)"></tr>
+	<tr name="Opera mauve" value="rgb(183, 132, 167)"></tr>
+	<tr name="Orange" value="rgb(255, 165, 0)"></tr>
+	<tr name="Orange Yellow" value="rgb(248, 213, 104)"></tr>
+	<tr name="Orange peel" value="rgb(255, 159, 0)"></tr>
+	<tr name="Orange red" value="rgb(255, 69, 0)"></tr>
+	<tr name="Orchid" value="rgb(218, 112, 214)"></tr>
+	<tr name="Otter brown" value="rgb(101, 67, 33)"></tr>
+	<tr name="Outer Space" value="rgb(65, 74, 76)"></tr>
+	<tr name="Outrageous Orange" value="rgb(255, 110, 74)"></tr>
+	<tr name="Oxford Blue" value="rgb(0, 33, 71)"></tr>
+	<tr name="Pacific Blue" value="rgb(28, 169, 201)"></tr>
+	<tr name="Pakistan green" value="rgb(0, 102, 0)"></tr>
+	<tr name="Palatinate blue" value="rgb(39, 59, 226)"></tr>
+	<tr name="Palatinate purple" value="rgb(104, 40, 96)"></tr>
+	<tr name="Pale aqua" value="rgb(188, 212, 230)"></tr>
+	<tr name="Pale blue" value="rgb(175, 238, 238)"></tr>
+	<tr name="Pale brown" value="rgb(152, 118, 84)"></tr>
+	<tr name="Pale carmine" value="rgb(175, 64, 53)"></tr>
+	<tr name="Pale cerulean" value="rgb(155, 196, 226)"></tr>
+	<tr name="Pale chestnut" value="rgb(221, 173, 175)"></tr>
+	<tr name="Pale copper" value="rgb(218, 138, 103)"></tr>
+	<tr name="Pale cornflower blue" value="rgb(171, 205, 239)"></tr>
+	<tr name="Pale gold" value="rgb(230, 190, 138)"></tr>
+	<tr name="Pale goldenrod" value="rgb(238, 232, 170)"></tr>
+	<tr name="Pale green" value="rgb(152, 251, 152)"></tr>
+	<tr name="Pale lavender" value="rgb(220, 208, 255)"></tr>
+	<tr name="Pale magenta" value="rgb(249, 132, 229)"></tr>
+	<tr name="Pale pink" value="rgb(250, 218, 221)"></tr>
+	<tr name="Pale plum" value="rgb(221, 160, 221)"></tr>
+	<tr name="Pale red violet" value="rgb(219, 112, 147)"></tr>
+	<tr name="Pale robin egg blue" value="rgb(150, 222, 209)"></tr>
+	<tr name="Pale silver" value="rgb(201, 192, 187)"></tr>
+	<tr name="Pale spring bud" value="rgb(236, 235, 189)"></tr>
+	<tr name="Pale taupe" value="rgb(188, 152, 126)"></tr>
+	<tr name="Pale violet red" value="rgb(219, 112, 147)"></tr>
+	<tr name="Pansy purple" value="rgb(120, 24, 74)"></tr>
+	<tr name="Papaya whip" value="rgb(255, 239, 213)"></tr>
+	<tr name="Paris Green" value="rgb(80, 200, 120)"></tr>
+	<tr name="Pastel blue" value="rgb(174, 198, 207)"></tr>
+	<tr name="Pastel brown" value="rgb(131, 105, 83)"></tr>
+	<tr name="Pastel gray" value="rgb(207, 207, 196)"></tr>
+	<tr name="Pastel green" value="rgb(119, 221, 119)"></tr>
+	<tr name="Pastel magenta" value="rgb(244, 154, 194)"></tr>
+	<tr name="Pastel orange" value="rgb(255, 179, 71)"></tr>
+	<tr name="Pastel pink" value="rgb(255, 209, 220)"></tr>
+	<tr name="Pastel purple" value="rgb(179, 158, 181)"></tr>
+	<tr name="Pastel red" value="rgb(255, 105, 97)"></tr>
+	<tr name="Pastel violet" value="rgb(203, 153, 201)"></tr>
+	<tr name="Pastel yellow" value="rgb(253, 253, 150)"></tr>
+	<tr name="Patriarch" value="rgb(128, 0, 128)"></tr>
+	<tr name="Payne grey" value="rgb(83, 104, 120)"></tr>
+	<tr name="Peach" value="rgb(255, 229, 180)"></tr>
+	<tr name="Peach puff" value="rgb(255, 218, 185)"></tr>
+	<tr name="Peach yellow" value="rgb(250, 223, 173)"></tr>
+	<tr name="Pear" value="rgb(209, 226, 49)"></tr>
+	<tr name="Pearl" value="rgb(234, 224, 200)"></tr>
+	<tr name="Pearl Aqua" value="rgb(136, 216, 192)"></tr>
+	<tr name="Peridot" value="rgb(230, 226, 0)"></tr>
+	<tr name="Periwinkle" value="rgb(204, 204, 255)"></tr>
+	<tr name="Persian blue" value="rgb(28, 57, 187)"></tr>
+	<tr name="Persian indigo" value="rgb(50, 18, 122)"></tr>
+	<tr name="Persian orange" value="rgb(217, 144, 88)"></tr>
+	<tr name="Persian pink" value="rgb(247, 127, 190)"></tr>
+	<tr name="Persian plum" value="rgb(112, 28, 28)"></tr>
+	<tr name="Persian red" value="rgb(204, 51, 51)"></tr>
+	<tr name="Persian rose" value="rgb(254, 40, 162)"></tr>
+	<tr name="Phlox" value="rgb(223, 0, 255)"></tr>
+	<tr name="Phthalo blue" value="rgb(0, 15, 137)"></tr>
+	<tr name="Phthalo green" value="rgb(18, 53, 36)"></tr>
+	<tr name="Piggy pink" value="rgb(253, 221, 230)"></tr>
+	<tr name="Pine green" value="rgb(1, 121, 111)"></tr>
+	<tr name="Pink" value="rgb(255, 192, 203)"></tr>
+	<tr name="Pink Flamingo" value="rgb(252, 116, 253)"></tr>
+	<tr name="Pink Sherbet" value="rgb(247, 143, 167)"></tr>
+	<tr name="Pink pearl" value="rgb(231, 172, 207)"></tr>
+	<tr name="Pistachio" value="rgb(147, 197, 114)"></tr>
+	<tr name="Platinum" value="rgb(229, 228, 226)"></tr>
+	<tr name="Plum" value="rgb(221, 160, 221)"></tr>
+	<tr name="Portland Orange" value="rgb(255, 90, 54)"></tr>
+	<tr name="Powder blue" value="rgb(176, 224, 230)"></tr>
+	<tr name="Princeton orange" value="rgb(255, 143, 0)"></tr>
+	<tr name="Prussian blue" value="rgb(0, 49, 83)"></tr>
+	<tr name="Psychedelic purple" value="rgb(223, 0, 255)"></tr>
+	<tr name="Puce" value="rgb(204, 136, 153)"></tr>
+	<tr name="Pumpkin" value="rgb(255, 117, 24)"></tr>
+	<tr name="Purple" value="rgb(128, 0, 128)"></tr>
+	<tr name="Purple Heart" value="rgb(105, 53, 156)"></tr>
+	<tr name="Purple Mountain's Majesty" value="rgb(157, 129, 186)"></tr>
+	<tr name="Purple mountain majesty" value="rgb(150, 120, 182)"></tr>
+	<tr name="Purple pizzazz" value="rgb(254, 78, 218)"></tr>
+	<tr name="Purple taupe" value="rgb(80, 64, 77)"></tr>
+	<tr name="Rackley" value="rgb(93, 138, 168)"></tr>
+	<tr name="Radical Red" value="rgb(255, 53, 94)"></tr>
+	<tr name="Raspberry" value="rgb(227, 11, 93)"></tr>
+	<tr name="Raspberry glace" value="rgb(145, 95, 109)"></tr>
+	<tr name="Raspberry pink" value="rgb(226, 80, 152)"></tr>
+	<tr name="Raspberry rose" value="rgb(179, 68, 108)"></tr>
+	<tr name="Raw Sienna" value="rgb(214, 138, 89)"></tr>
+	<tr name="Razzle dazzle rose" value="rgb(255, 51, 204)"></tr>
+	<tr name="Razzmatazz" value="rgb(227, 37, 107)"></tr>
+	<tr name="Red" value="rgb(255, 0, 0)"></tr>
+	<tr name="Red Orange" value="rgb(255, 83, 73)"></tr>
+	<tr name="Red brown" value="rgb(165, 42, 42)"></tr>
+	<tr name="Red violet" value="rgb(199, 21, 133)"></tr>
+	<tr name="Rich black" value="rgb(0, 64, 64)"></tr>
+	<tr name="Rich carmine" value="rgb(215, 0, 64)"></tr>
+	<tr name="Rich electric blue" value="rgb(8, 146, 208)"></tr>
+	<tr name="Rich lilac" value="rgb(182, 102, 210)"></tr>
+	<tr name="Rich maroon" value="rgb(176, 48, 96)"></tr>
+	<tr name="Rifle green" value="rgb(65, 72, 51)"></tr>
+	<tr name="Robin's Egg Blue" value="rgb(31, 206, 203)"></tr>
+	<tr name="Rose" value="rgb(255, 0, 127)"></tr>
+	<tr name="Rose bonbon" value="rgb(249, 66, 158)"></tr>
+	<tr name="Rose ebony" value="rgb(103, 72, 70)"></tr>
+	<tr name="Rose gold" value="rgb(183, 110, 121)"></tr>
+	<tr name="Rose madder" value="rgb(227, 38, 54)"></tr>
+	<tr name="Rose pink" value="rgb(255, 102, 204)"></tr>
+	<tr name="Rose quartz" value="rgb(170, 152, 169)"></tr>
+	<tr name="Rose taupe" value="rgb(144, 93, 93)"></tr>
+	<tr name="Rose vale" value="rgb(171, 78, 82)"></tr>
+	<tr name="Rosewood" value="rgb(101, 0, 11)"></tr>
+	<tr name="Rosso corsa" value="rgb(212, 0, 0)"></tr>
+	<tr name="Rosy brown" value="rgb(188, 143, 143)"></tr>
+	<tr name="Royal azure" value="rgb(0, 56, 168)"></tr>
+	<tr name="Royal blue" value="rgb(65, 105, 225)"></tr>
+	<tr name="Royal fuchsia" value="rgb(202, 44, 146)"></tr>
+	<tr name="Royal purple" value="rgb(120, 81, 169)"></tr>
+	<tr name="Ruby" value="rgb(224, 17, 95)"></tr>
+	<tr name="Ruddy" value="rgb(255, 0, 40)"></tr>
+	<tr name="Ruddy brown" value="rgb(187, 101, 40)"></tr>
+	<tr name="Ruddy pink" value="rgb(225, 142, 150)"></tr>
+	<tr name="Rufous" value="rgb(168, 28, 7)"></tr>
+	<tr name="Russet" value="rgb(128, 70, 27)"></tr>
+	<tr name="Rust" value="rgb(183, 65, 14)"></tr>
+	<tr name="Sacramento State green" value="rgb(0, 86, 63)"></tr>
+	<tr name="Saddle brown" value="rgb(139, 69, 19)"></tr>
+	<tr name="Safety orange" value="rgb(255, 103, 0)"></tr>
+	<tr name="Saffron" value="rgb(244, 196, 48)"></tr>
+	<tr name="Saint Patrick Blue" value="rgb(35, 41, 122)"></tr>
+	<tr name="Salmon" value="rgb(255, 140, 105)"></tr>
+	<tr name="Salmon pink" value="rgb(255, 145, 164)"></tr>
+	<tr name="Sand" value="rgb(194, 178, 128)"></tr>
+	<tr name="Sand dune" value="rgb(150, 113, 23)"></tr>
+	<tr name="Sandstorm" value="rgb(236, 213, 64)"></tr>
+	<tr name="Sandy brown" value="rgb(244, 164, 96)"></tr>
+	<tr name="Sandy taupe" value="rgb(150, 113, 23)"></tr>
+	<tr name="Sap green" value="rgb(80, 125, 42)"></tr>
+	<tr name="Sapphire" value="rgb(15, 82, 186)"></tr>
+	<tr name="Satin sheen gold" value="rgb(203, 161, 53)"></tr>
+	<tr name="Scarlet" value="rgb(255, 36, 0)"></tr>
+	<tr name="School bus yellow" value="rgb(255, 216, 0)"></tr>
+	<tr name="Screamin Green" value="rgb(118, 255, 122)"></tr>
+	<tr name="Sea blue" value="rgb(0, 105, 148)"></tr>
+	<tr name="Sea green" value="rgb(46, 139, 87)"></tr>
+	<tr name="Seal brown" value="rgb(50, 20, 20)"></tr>
+	<tr name="Seashell" value="rgb(255, 245, 238)"></tr>
+	<tr name="Selective yellow" value="rgb(255, 186, 0)"></tr>
+	<tr name="Sepia" value="rgb(112, 66, 20)"></tr>
+	<tr name="Shadow" value="rgb(138, 121, 93)"></tr>
+	<tr name="Shamrock" value="rgb(69, 206, 162)"></tr>
+	<tr name="Shamrock green" value="rgb(0, 158, 96)"></tr>
+	<tr name="Shocking pink" value="rgb(252, 15, 192)"></tr>
+	<tr name="Sienna" value="rgb(136, 45, 23)"></tr>
+	<tr name="Silver" value="rgb(192, 192, 192)"></tr>
+	<tr name="Sinopia" value="rgb(203, 65, 11)"></tr>
+	<tr name="Skobeloff" value="rgb(0, 116, 116)"></tr>
+	<tr name="Sky blue" value="rgb(135, 206, 235)"></tr>
+	<tr name="Sky magenta" value="rgb(207, 113, 175)"></tr>
+	<tr name="Slate blue" value="rgb(106, 90, 205)"></tr>
+	<tr name="Slate gray" value="rgb(112, 128, 144)"></tr>
+	<tr name="Smalt" value="rgb(0, 51, 153)"></tr>
+	<tr name="Smokey topaz" value="rgb(147, 61, 65)"></tr>
+	<tr name="Smoky black" value="rgb(16, 12, 8)"></tr>
+	<tr name="Snow" value="rgb(255, 250, 250)"></tr>
+	<tr name="Spiro Disco Ball" value="rgb(15, 192, 252)"></tr>
+	<tr name="Spring bud" value="rgb(167, 252, 0)"></tr>
+	<tr name="Spring green" value="rgb(0, 255, 127)"></tr>
+	<tr name="Steel blue" value="rgb(70, 130, 180)"></tr>
+	<tr name="Stil de grain yellow" value="rgb(250, 218, 94)"></tr>
+	<tr name="Stizza" value="rgb(153, 0, 0)"></tr>
+	<tr name="Stormcloud" value="rgb(0, 128, 128)"></tr>
+	<tr name="Straw" value="rgb(228, 217, 111)"></tr>
+	<tr name="Sunglow" value="rgb(255, 204, 51)"></tr>
+	<tr name="Sunset" value="rgb(250, 214, 165)"></tr>
+	<tr name="Sunset Orange" value="rgb(253, 94, 83)"></tr>
+	<tr name="Tan" value="rgb(210, 180, 140)"></tr>
+	<tr name="Tangelo" value="rgb(249, 77, 0)"></tr>
+	<tr name="Tangerine" value="rgb(242, 133, 0)"></tr>
+	<tr name="Tangerine yellow" value="rgb(255, 204, 0)"></tr>
+	<tr name="Taupe" value="rgb(72, 60, 50)"></tr>
+	<tr name="Taupe gray" value="rgb(139, 133, 137)"></tr>
+	<tr name="Tawny" value="rgb(205, 87, 0)"></tr>
+	<tr name="Tea green" value="rgb(208, 240, 192)"></tr>
+	<tr name="Tea rose" value="rgb(244, 194, 194)"></tr>
+	<tr name="Teal" value="rgb(0, 128, 128)"></tr>
+	<tr name="Teal blue" value="rgb(54, 117, 136)"></tr>
+	<tr name="Teal green" value="rgb(0, 109, 91)"></tr>
+	<tr name="Terra cotta" value="rgb(226, 114, 91)"></tr>
+	<tr name="Thistle" value="rgb(216, 191, 216)"></tr>
+	<tr name="Thulian pink" value="rgb(222, 111, 161)"></tr>
+	<tr name="Tickle Me Pink" value="rgb(252, 137, 172)"></tr>
+	<tr name="Tiffany Blue" value="rgb(10, 186, 181)"></tr>
+	<tr name="Tiger eye" value="rgb(224, 141, 60)"></tr>
+	<tr name="Timberwolf" value="rgb(219, 215, 210)"></tr>
+	<tr name="Titanium yellow" value="rgb(238, 230, 0)"></tr>
+	<tr name="Tomato" value="rgb(255, 99, 71)"></tr>
+	<tr name="Toolbox" value="rgb(116, 108, 192)"></tr>
+	<tr name="Topaz" value="rgb(255, 200, 124)"></tr>
+	<tr name="Tractor red" value="rgb(253, 14, 53)"></tr>
+	<tr name="Trolley Grey" value="rgb(128, 128, 128)"></tr>
+	<tr name="Tropical rain forest" value="rgb(0, 117, 94)"></tr>
+	<tr name="True Blue" value="rgb(0, 115, 207)"></tr>
+	<tr name="Tufts Blue" value="rgb(65, 125, 193)"></tr>
+	<tr name="Tumbleweed" value="rgb(222, 170, 136)"></tr>
+	<tr name="Turkish rose" value="rgb(181, 114, 129)"></tr>
+	<tr name="Turquoise" value="rgb(48, 213, 200)"></tr>
+	<tr name="Turquoise blue" value="rgb(0, 255, 239)"></tr>
+	<tr name="Turquoise green" value="rgb(160, 214, 180)"></tr>
+	<tr name="Tuscan red" value="rgb(102, 66, 77)"></tr>
+	<tr name="Twilight lavender" value="rgb(138, 73, 107)"></tr>
+	<tr name="Tyrian purple" value="rgb(102, 2, 60)"></tr>
+	<tr name="UA blue" value="rgb(0, 51, 170)"></tr>
+	<tr name="UA red" value="rgb(217, 0, 76)"></tr>
+	<tr name="UCLA Blue" value="rgb(83, 104, 149)"></tr>
+	<tr name="UCLA Gold" value="rgb(255, 179, 0)"></tr>
+	<tr name="UFO Green" value="rgb(60, 208, 112)"></tr>
+	<tr name="UP Forest green" value="rgb(1, 68, 33)"></tr>
+	<tr name="UP Maroon" value="rgb(123, 17, 19)"></tr>
+	<tr name="USC Cardinal" value="rgb(153, 0, 0)"></tr>
+	<tr name="USC Gold" value="rgb(255, 204, 0)"></tr>
+	<tr name="Ube" value="rgb(136, 120, 195)"></tr>
+	<tr name="Ultra pink" value="rgb(255, 111, 255)"></tr>
+	<tr name="Ultramarine" value="rgb(18, 10, 143)"></tr>
+	<tr name="Ultramarine blue" value="rgb(65, 102, 245)"></tr>
+	<tr name="Umber" value="rgb(99, 81, 71)"></tr>
+	<tr name="United Nations blue" value="rgb(91, 146, 229)"></tr>
+	<tr name="University of California Gold" value="rgb(183, 135, 39)"></tr>
+	<tr name="Unmellow Yellow" value="rgb(255, 255, 102)"></tr>
+	<tr name="Upsdell red" value="rgb(174, 32, 41)"></tr>
+	<tr name="Urobilin" value="rgb(225, 173, 33)"></tr>
+	<tr name="Utah Crimson" value="rgb(211, 0, 63)"></tr>
+	<tr name="Vanilla" value="rgb(243, 229, 171)"></tr>
+	<tr name="Vegas gold" value="rgb(197, 179, 88)"></tr>
+	<tr name="Venetian red" value="rgb(200, 8, 21)"></tr>
+	<tr name="Verdigris" value="rgb(67, 179, 174)"></tr>
+	<tr name="Vermilion" value="rgb(227, 66, 52)"></tr>
+	<tr name="Veronica" value="rgb(160, 32, 240)"></tr>
+	<tr name="Violet" value="rgb(238, 130, 238)"></tr>
+	<tr name="Violet Blue" value="rgb(50, 74, 178)"></tr>
+	<tr name="Violet Red" value="rgb(247, 83, 148)"></tr>
+	<tr name="Viridian" value="rgb(64, 130, 109)"></tr>
+	<tr name="Vivid auburn" value="rgb(146, 39, 36)"></tr>
+	<tr name="Vivid burgundy" value="rgb(159, 29, 53)"></tr>
+	<tr name="Vivid cerise" value="rgb(218, 29, 129)"></tr>
+	<tr name="Vivid tangerine" value="rgb(255, 160, 137)"></tr>
+	<tr name="Vivid violet" value="rgb(159, 0, 255)"></tr>
+	<tr name="Warm black" value="rgb(0, 66, 66)"></tr>
+	<tr name="Waterspout" value="rgb(0, 255, 255)"></tr>
+	<tr name="Wenge" value="rgb(100, 84, 82)"></tr>
+	<tr name="Wheat" value="rgb(245, 222, 179)"></tr>
+	<tr name="White" value="rgb(255, 255, 255)"></tr>
+	<tr name="White smoke" value="rgb(245, 245, 245)"></tr>
+	<tr name="Wild Strawberry" value="rgb(255, 67, 164)"></tr>
+	<tr name="Wild Watermelon" value="rgb(252, 108, 133)"></tr>
+	<tr name="Wild blue yonder" value="rgb(162, 173, 208)"></tr>
+	<tr name="Wine" value="rgb(114, 47, 55)"></tr>
+	<tr name="Wisteria" value="rgb(201, 160, 220)"></tr>
+	<tr name="Xanadu" value="rgb(115, 134, 120)"></tr>
+	<tr name="Yale Blue" value="rgb(15, 77, 146)"></tr>
+	<tr name="Yellow" value="rgb(255, 255, 0)"></tr>
+	<tr name="Yellow Orange" value="rgb(255, 174, 66)"></tr>
+	<tr name="Yellow green" value="rgb(154, 205, 50)"></tr>
+	<tr name="Zaffre" value="rgb(0, 20, 168)"></tr>
+	<tr name="Zinnwaldite brown" value="rgb(44, 22, 8)"></tr>
+</tbody>
