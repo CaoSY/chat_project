@@ -1,9 +1,2 @@
-<?php
-	$response = new SimpleXMLElement("<?xml version='1.0' standalone='yes'?><result></result>");
-	//$response -> addChild("sucess", "true");
-	print_r($response);
-	$response -> sucess ="true";
-	$str = $response -> asXML("test.xml");
-	print_r("<p>$str</p>");
-
-?>
+<h1><?php echo $_GET["n"]; ?></h1>
+<h1><?php echo $_GET["p"]; ?></h1>
