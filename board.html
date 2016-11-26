@@ -98,13 +98,13 @@
 					<div class="btn-group" role="group" id="edit-helper">
 						<div class="btn-group dropup">
 							<button type="button" class="btn btn-default dropdown-toggle" id="font-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-font" data-toggle="tooltip" title="Font"></i></button>
-							<ul class="dropdown-menu" aria-labelledby="font-button">
+							<ul class="dropdown-menu scrollbar" aria-labelledby="font-button">
 								<!-- `<li><a style='font-family:${currentValue.value}'>${currentValue.name}</a></li>` -->
 							</ul>
 						</div>
 						<div class="btn-group dropup">
 							<button type="button" class="btn btn-default dropdown-toggle" id="bold-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-bold" data-toggle="tooltip" title="Bold"></i></button>
-							<ul class="dropdown-menu" aria-labelledby="bold-button">
+							<ul class="dropdown-menu scrollbar" aria-labelledby="bold-button">
 								<!-- `<li><a style="font-weight:${currentValue.value}">${currentValue.name}</a></li>` -->
 							</ul>
 						</div>
@@ -113,22 +113,19 @@
 						</div>
 						<div class="btn-group dropup">
 							<button type="button" class="btn btn-default dropdown-toggle" id="size-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-text-size" data-toggle="tooltip" title="Text Size"></i></button>
-							<ul class="dropdown-menu" aria-labelledby="size-button">
+							<ul class="dropdown-menu scrollbar" aria-labelledby="size-button">
 								<!-- `<li><a style="font-size:${currentValue.value}">${currentValue.name}</a></li>` -->
 							</ul>
 						</div>
 						<div class="btn-group dropup">
 							<button type="button" class="btn btn-default dropdown-toggle" id="color-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-text-color" data-toggle="tooltip" title="Text Color"></i></button>
-							<ul class="dropdown-menu" aria-labelledby="color-button">
-								<li><a style="color:rgb(0, 0, 0);">Default</a></li>
-								<li><a style="color:rgb(93, 138, 168);">Air Force blue</a></li>
-								<li><a style="color:rgb(227, 38, 54);">crimson</a></li>
-								<li><a style="color:rgb(255, 3, 62)">American rose</a></li>
+							<ul class="dropdown-menu scrollbar" aria-labelledby="color-button">
+								<!-- `<li><a style="color:${currentValue.value};">${currentValue.name}</a></li>` -->
 							</ul>
 						</div>
 						<div class="btn-group dropup">
 							<button type="button" class="btn btn-default dropdown-toggle" id="background-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-text-background" data-toggle="tooltip" title="Background Color"></i></button>
-							<ul class="dropdown-menu" aria-labelledby="background-button">
+							<ul class="dropdown-menu scrollbar" aria-labelledby="background-button">
 								<li><a style="background-color:rgb(255, 255, 255);color:rgba(0,0,0,0);">Default</a></li>
 								<li><a style="background-color:rgb(227, 38, 54);color:rgba(0,0,0,0);">crimson</a></li>
 								<li><a style="background-color:rgb(255, 3, 62);color:rgba(0,0,0,0);">American rose</a></li>  
@@ -155,7 +152,13 @@
 			};
 			var Room = {
 				ID: "12349879"
-			}
+			};
+			var UserList = {
+				"5555": {
+					ID: "5555",
+					name: "hello"
+				}
+			};
 		</script>
 	</body>
 </html>

@@ -221,6 +221,9 @@ body {
 	font-weight: bold;
 	color: #35CD96;
 }
+.anonymous {
+	color: 	#DC143C;
+}
 .message-in {
 	background-color: white;
 	padding: 6px 18px 0px 12px;
@@ -257,6 +260,9 @@ body {
 }
 #edit-helper .btn-default:hover {
 	background-color: #ADADAD;
+}
+#edit-helper ul {
+	max-height: 300px;
 }
 #edit-helper ul li a {
 	padding: 0px 5px;
