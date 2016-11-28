@@ -16,7 +16,8 @@
 		$imgName = "$password.$imgExtension";
 		move_uploaded_file($_FILES["profile"]["tmp_name"], "../data/images/$imgName");
 		$newUser -> addChild("imageSource", $imgName);
-
+		$newUser -> addChild("online", "false");
+		
 		$userlist -> saveXML("../data/userlist.xml");
 		$response -> addChild("sucess", "true");
 		$response -> addChild("user", $newUser->asXML());

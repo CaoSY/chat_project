@@ -8,6 +8,19 @@
 			break;
 		}
 	}
+	if(!is_null($authenticatedUser) && (string)($authenticatedUser->online)=="false") {
+		$authenticatedUser -> online = "true";
+		$userlist -> saveXML("data/userlist.xml");
+		
+		$eventlist = simplexml_load_file("data/eventlist.xml") or die("Error: Cannot create object");
+		$newEvent = $eventlist -> addChild("event");
+		$newEvent -> addChild("type", "login");
+		$newEvent -> addChild("timestamp", round(microtime(true)*1000));
+		$newEvent -> addChild("from", $authenticatedUser->name);
+		$newEvent -> addChild("to", "room");
+		$newEvent -> addChild("content", "");
+		$eventlist -> saveXML("data/eventlist.xml");
+	}
 ?>
 <?php if(is_null($authenticatedUser)): ?>
 <!doctype html>
@@ -46,7 +59,7 @@
 						<a class="option dropdown-toggle" id="user-menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-option-vertical"></i></a>
 						<ul class="dropdown-menu dropdown-menu-right" aria-labelledby="user-menu">
 							<li><a>Update profile</a></li>
-							<li><a>Log out</a></li>
+							<li><a id="logout">Log out</a></li>
 						</ul>
 					</div>
 				</div>
@@ -158,7 +171,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="edit-area scrollbar"><span id="edit-content" contenteditable="true">Hello, world!</span></div>
+					<div class="edit-area scrollbar"><span id="edit-content" contenteditable="true"></span></div>
 					<!--<textarea class="scrollbar"></textarea>-->
 					<button type="button" class="btn btn-default pull-right" style="margin-top: 5px; margin-right: 10px;" id="send">Send</button>
 				</div>
@@ -183,6 +196,7 @@
 				$listItem = array();
 				$listItem["name"] = (string)($user -> name);
 				$listItem["imgSrc"] = (string)($user -> imageSource);
+				$listItem["online"] = (string)($user -> online);
 				$UserList[$listItem["name"]] = $listItem;
 			}
 			print("var UserList=".json_encode($UserList).";");

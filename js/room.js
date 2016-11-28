@@ -12,8 +12,6 @@ $(document).ready(function () {
 				evtList.push(createMessageOut(evtObj));
 			else
 				evtList.push(createMessageIn(evtObj));
-		}else {
-			evtList.push(createSystemMessage(evtObj.content));
 		}
 	}
 	addMessageToList(evtList);
@@ -95,6 +93,28 @@ $(document).ready(function () {
 		}
 	});
 
+	$("#logout").click(function() {
+		var logoutObj = new FormData();
+		logoutObj.set("username", User.name);
+		logoutObj.set("timestamp", Date.now());
+		$.ajax({
+			url: "php/logout.php",
+			type: "POST",
+			data: logoutObj,
+			async: true,
+			cache: false,
+			contentType: false,
+			processData: false
+		}).done(function(data) {
+			console.log(data);
+		}).fail(function(error) {
+			console.log("fail");
+		}).always(function() {
+
+		});
+	});
+
+	console.log(EventList[EventList.length-1].timestamp);
 	keepUpdate();
 });
 
@@ -181,7 +201,7 @@ function addItemToContactList(item) {
 	}
 }
 function createListItem(item) {
-	return `<div class="contact-list-item" id="${item.name}"><div class="avatar"><img src="${"data/images/"+item.imgSrc || 'img/default-user-image.svg'}" class="item-img img-circle center-block" /></div><div class="item-body"><div class="item-title"><p class="item-name">${item.name || 'anonymous'}</p><span class="item-time">${formatDate(item.timestamp || Date.now())}</span></div><div class="item-info">${item.info || ''}</div></div></div>`;
+	return `<div class="contact-list-item ${(item.online=="true")?'':'off-line'}" id="${item.name}"><div class="avatar"><img src="${"data/images/"+item.imgSrc || 'img/default-user-image.svg'}" class="item-img img-circle center-block" /></div><div class="item-body"><div class="item-title"><p class="item-name">${item.name || 'anonymous'}</p><span class="item-time">${formatDate(item.timestamp || Date.now())}</span></div><div class="item-info">${item.info || ''}</div></div></div>`;
 }
 function updateContactListItem(msgIn) {
 	var item = $(`#${msgIn.from}`);
@@ -207,6 +227,7 @@ function keepUpdate() {
 		contentType: false,
 		processData: false
 	}).done(function(data) {
+		console.log(data);
 		var newEvents = $($.parseXML(data));
 		FileSize = newEvents.find("filesize").text() || FileSize;
 
@@ -226,12 +247,22 @@ function keepUpdate() {
 		});
 		newEventArr.forEach(function(currentValue) {
 			if(currentValue.type == "message") {
+				console.log("message");
 				if(currentValue.from == User.name)
 					addMessageToList(createMessageOut(currentValue));
 				else
 					addMessageToList(createMessageIn(currentValue));
-			}else {
-				addMessageToList(createSystemMessage(currentValue.content));
+			}else if(currentValue.type == "login") {
+				console.log("log in");
+				$(`#${currentValue.from}`).removeClass("off-line");
+				addMessageToList(createSystemMessage(`${currentValue.from} logs in`));
+			}else if(currentValue.type == "logout") {
+				console.log("log out");
+				$(`#${currentValue.from}`).addClass("off-line");
+				addMessageToList(createSystemMessage(`${currentValue.from} logs out`));
+			}else if(currentValue.type == "register") {
+				console.log("register");
+				addMessageToList(createSystemMessage(`${currentValue.from} enter this room`));
 			}
 		});
 		EventList =  EventList.concat(newEventArr);

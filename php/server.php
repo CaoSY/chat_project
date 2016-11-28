@@ -1,4 +1,5 @@
 <?php
+	
 	function response_query($timestamp) {
 		$file_size = filesize("../data/eventlist.xml");
 		$eventlist = simplexml_load_file("../data/eventlist.xml") or die("Error: Cannot create object");
@@ -19,18 +20,15 @@
 	}
 
 	$origin_file_size = (int)$_POST["filesize"];
-	if(filesize("../data/eventlist.xml") > $origin_file_size) {
-		response_query((int)$_POST["timestamp"]);
-	}else {
-		set_time_limit(60);
-		$max_check_num = 60;
-		for($check_count=0; $check_count<$max_check_num; ++$check_count) {
-			clearstatcache();
-			if(filesize("../data/eventlist.xml") > $origin_file_size) {
-				response_query((int)$_POST["timestamp"]);
-				break;
-			}
-			sleep(0.5);
+	set_time_limit(60);
+	$max_check_num = 60;
+	for($check_count=0; $check_count<$max_check_num; ++$check_count) {
+		clearstatcache();
+		if(filesize("../data/eventlist.xml") > $origin_file_size) {
+			response_query((int)$_POST["timestamp"]);
+			break;
 		}
+		usleep(500000);
 	}
+
 ?>

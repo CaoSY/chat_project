@@ -1,4 +1,3 @@
 <?php
-	$num = (int)("1480329821132");
-	echo $num;
+	echo round(microtime(true)*1000);
 ?>

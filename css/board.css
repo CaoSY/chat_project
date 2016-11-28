@@ -65,6 +65,13 @@ body {
 	background-color: #F5F5F5;
 	cursor: pointer;
 }
+.off-line {
+	color: #626262;
+}
+.off-line img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
 .avatar {
 	display: table-cell;
 	width: 70px;

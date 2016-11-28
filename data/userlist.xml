@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <userlist>
-	<user id="AAA">
+	<user>
 		<name>AAA</name>
 		<password>69dc6c3210e25e62c5938ff4e841e81ce3c7d2cde583553478a77d7fcb389f30</password>
 		<imageSource>69dc6c3210e25e62c5938ff4e841e81ce3c7d2cde583553478a77d7fcb389f30.jpg</imageSource>
+		<online>false</online>
 	</user>
-	<user id="Hello">
+	<user>
 		<name>Hello</name>
 		<password>872e4e50ce9990d8b041330c47c9ddd11bec6b503ae9386a99da8584e9bb12c4</password>
 		<imageSource>872e4e50ce9990d8b041330c47c9ddd11bec6b503ae9386a99da8584e9bb12c4.jpg</imageSource>
+		<online>false</online>
 	</user>
 </userlist>
