@@ -14,6 +14,7 @@ $(document).ready(function() {
 				contentType: false,
 				processData: false
 			}).done(function(data) {
+				console.log(data);
 				var response = $($.parseXML(data));
 				var sucess = response.find("result sucess").text() == "true";
 				if(sucess) {
