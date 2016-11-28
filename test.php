@@ -1,1 +1,4 @@
-<?php echo hash("sha512", 0) ?>
+<?php
+	$num = (int)("1480329821132");
+	echo $num;
+?>

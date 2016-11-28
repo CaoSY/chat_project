@@ -9,7 +9,6 @@
 			}
 		}
 		$newUser = $userlist -> addChild("user");
-		$newUser -> addAttribute("id", $_POST['username']);
 		$newUser -> addChild("name", $_POST['username']);
 		$password = hash("sha256", $_POST['username'].$_POST['password']);
 		$newUser -> addChild("password", $password);

@@ -170,21 +170,38 @@
 		<script src="lib/jquery-3.1.1.min.js"></script>
 		<script src="lib/bootstrap.min.js"></script>
 		<script src="js/common.js"></script>
-		<script src="js/board.js"></script>
+		<script src="js/room.js"></script>
 		<script>
-			var User = {
-				ID: "123456789",
-				name: "hello"
-			};
-			var Room = {
-				ID: "12349879"
-			};
-			var UserList = {
-				"5555": {
-					ID: "5555",
-					name: "hello"
-				}
-			};
+		<?php
+			$userlist = simplexml_load_file("./data/userlist.xml") or die("Error: Cannot create object");
+			$User = array();
+			$User["name"] = (string)($authenticatedUser -> name);
+			$User["imgSrc"] = (string)($authenticatedUser -> imageSource);
+			print("var User=".json_encode($User).";");
+
+			foreach($userlist -> Children() as $user){
+				$listItem = array();
+				$listItem["name"] = (string)($user -> name);
+				$listItem["imgSrc"] = (string)($user -> imageSource);
+				$UserList[$listItem["name"]] = $listItem;
+			}
+			print("var UserList=".json_encode($UserList).";");
+
+			$eventlist = simplexml_load_file("./data/eventlist.xml") or die("Error: Cannot create object");
+			$eventarr = array();
+			foreach($eventlist -> Children() as $event) {
+				$eventItem = array();
+				$eventItem["type"] = (string)($event -> type);
+				$eventItem["timestamp"] = (string)($event -> timestamp);
+				$eventItem["from"] = (string)($event -> from);
+				$eventItem["to"] = (string)($event -> to);
+				$eventItem["content"] = (string)($event -> content);
+				array_push($eventarr, $eventItem);
+			}
+			print("var EventList=".json_encode($eventarr).";");	
+
+			print("var FileSize=".filesize("./data/eventlist.xml").";");
+		?>
 		</script>
 	</body>
 </html>
