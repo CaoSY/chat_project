@@ -107,14 +107,24 @@ $(document).ready(function () {
 			processData: false
 		}).done(function(data) {
 			console.log(data);
+			window.location = "index.html";
 		}).fail(function(error) {
 			console.log("fail");
 		}).always(function() {
 
 		});
 	});
+	
+	$(window).on("beforeunload", function(evt) {
+		console.log(evt);
+		evt.returnValue = "You'll log out if you leave this page";
+		return evt;
+	});
+	$(window).on("unload", function(evt) {
+		console.log(evt);
+		$("#logout").click();
+	});
 
-	console.log(EventList[EventList.length-1].timestamp);
 	keepUpdate();
 });
 
@@ -262,6 +272,17 @@ function keepUpdate() {
 				addMessageToList(createSystemMessage(`${currentValue.from} logs out`));
 			}else if(currentValue.type == "register") {
 				console.log("register");
+				UserList[currentValue.from] = {
+					name: currentValue.from,
+					online: "false",
+					imgSrc: currentValue.content
+				};
+				addItemToContactList(createListItem({
+					name: currentValue.from,
+					online: "false",
+					imgSrc: currentValue.content,
+					timestamp: currentValue.timestamp
+				}));
 				addMessageToList(createSystemMessage(`${currentValue.from} enter this room`));
 			}
 		});

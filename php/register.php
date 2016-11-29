@@ -17,8 +17,17 @@
 		move_uploaded_file($_FILES["profile"]["tmp_name"], "../data/images/$imgName");
 		$newUser -> addChild("imageSource", $imgName);
 		$newUser -> addChild("online", "false");
-		
 		$userlist -> saveXML("../data/userlist.xml");
+		
+		$eventlist = simplexml_load_file("../data/eventlist.xml") or die("Error: Cannot create object");
+		$newEvent = $eventlist -> addChild("event");
+		$newEvent -> addChild("type", "register");
+		$newEvent -> addChild("timestamp", round(microtime(true)*1000));
+		$newEvent -> addChild("from", $_POST["username"]);
+		$newEvent -> addChild("to", "room");
+		$newEvent -> addChild("content", $imgName);
+		$eventlist -> saveXML("../data/eventlist.xml");
+		
 		$response -> addChild("sucess", "true");
 		$response -> addChild("user", $newUser->asXML());
 	}catch(Exception $e) {

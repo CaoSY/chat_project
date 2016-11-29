@@ -1,6 +1,4 @@
 $(document).ready(function() {
-	$("#username").val("AAA");
-	$("#password").val("AAA");
 	$("form").submit(function(event) {
 		$('.form-warning').remove();
 		var correctUserName = validateInput($("#username"), /^[\w|\d](\s*[\w|\d])+$/, "Only letters, digits and inner spaces allowed.");

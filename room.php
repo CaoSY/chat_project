@@ -71,6 +71,7 @@
 				</form>
 				<div style="height: 1px; background-color: #EEEEEE; width: 100%;"></div>
 				<div id="contact-list" class="scrollbar">
+					<!--
 					<div class="contact-list-item">
 						<div class="avatar">
 							<img src="img/default-user-image.svg" class="item-img img-circle center-block" />
@@ -83,6 +84,7 @@
 							<div class="item-info">world</div>
 						</div>
 					</div>
+					-->
 				</div>
 			</div>
 			<div class="col-sm-8 no-padding" id="content">
@@ -105,6 +107,7 @@
 				<div id="chat-content">
 					<div class="chat-background"></div>
 					<div class="message-list scrollbar">
+						<!--
 						<div class="message">
 							<div class="system-message-body">
 								<span class="system-message">Somebody creates this group</span>
@@ -131,6 +134,7 @@
 								<div class="message-meta">17:00</div>
 							</div>
 						</div>
+						-->
 					</div>	
 				</div>
 				<div id="text-editor">

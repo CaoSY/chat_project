@@ -7,7 +7,7 @@
 			break;
 		}
 	}
-	if(!is_null($authenticatedUser)) {
+	if(!is_null($authenticatedUser) && (string)($authenticatedUser -> online) != "false") {
 		$authenticatedUser -> online = "false";
 		$userlist -> saveXML("../data/userlist.xml");
 		
