@@ -9,6 +9,7 @@
 	}
 	if(!is_null($authenticatedUser) && (string)($authenticatedUser -> online) != "false") {
 		$authenticatedUser -> online = "false";
+		$authenticatedUser -> authenticate = "false";
 		$userlist -> saveXML("../data/userlist.xml");
 		
 		$eventlist = simplexml_load_file("../data/eventlist.xml") or die("Error: Cannot create object");

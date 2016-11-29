@@ -4,6 +4,9 @@
 	foreach($userlist -> Children() as $user){
 		$password = hash("sha256", $_POST['username'].$_POST['password']);
 		if(strcmp($_POST['username'], $user->name)==0 && strcmp($password, $user->password)==0) {
+			$user -> authenticate = "true";
+			$userlist -> saveXML("../data/userlist.xml");
+
 			$response -> addChild("pass", "true");
 			$info = $response -> addChild("info");
 			$info -> addChild("name", $user->name);

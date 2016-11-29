@@ -4,6 +4,7 @@ $(document).ready(function () {
 		itemList.push(createListItem(UserList[user]));
 	}
 	addItemToContactList(itemList);
+	showRoomMembers();
 
 	var evtList = [];
 	for(var evtObj of EventList) {
@@ -93,6 +94,18 @@ $(document).ready(function () {
 		}
 	});
 
+	$("#sound").hide();
+	$("#mute i").hide();
+	$("#mute").click(function() {
+		var mute = $("#sound").prop("muted");
+		mute = !mute;
+		$("#sound").prop("muted", mute);
+		if(mute)
+			$("#mute i").show();
+		else
+			$("#mute i").hide();
+	});
+
 	$("#logout").click(function() {
 		var logoutObj = new FormData();
 		logoutObj.set("username", User.name);
@@ -115,6 +128,10 @@ $(document).ready(function () {
 		});
 	});
 	
+	$(".chat-avatar").click(function() {
+		window.open("userstate.php", "_blank", "width=400,height=600");
+	});
+
 	$(window).on("beforeunload", function(evt) {
 		console.log(evt);
 		evt.returnValue = "You'll log out if you leave this page";
@@ -122,12 +139,41 @@ $(document).ready(function () {
 	});
 	$(window).on("unload", function(evt) {
 		console.log(evt);
-		$("#logout").click();
+		var logoutObj = new FormData();
+		logoutObj.set("username", User.name);
+		logoutObj.set("timestamp", Date.now());
+		$.ajax({
+			url: "php/logout.php",
+			type: "POST",
+			data: logoutObj,
+			async: false,
+			cache: false,
+			contentType: false,
+			processData: false
+		}).done(function(data) {
+			alert(data);
+			console.log(data);
+			window.location = "index.html";
+		}).fail(function(error) {
+			console.log("fail");
+		}).always(function() {
+
+		});
 	});
 
 	keepUpdate();
 });
 
+function showRoomMembers() {
+	var nameList = [];
+	for(var name in UserList) {
+		nameList.push(name);
+	}
+	var nameStr = nameList.join(", ");
+	var maxLen = 30;
+	nameStr = nameStr.length < maxLen ? nameStr : nameStr.substr(0, maxLen-3)+"...";
+	$(".chat-members").empty().text(nameStr);
+}
 
 function addMessageToList(msg) {
 	var messageList = $('.message-list');
@@ -154,6 +200,7 @@ function generateMessageOut() {
 	var copyNode = document.getElementById('edit-content').cloneNode(true);
 	copyNode.removeAttribute('id');
 	copyNode.removeAttribute('contenteditable');
+	copyNode.innerHTML = copyNode.innerHTML.linkify();
 	return {
 		timestamp: Date.now(),
 		from: User.name,
@@ -238,6 +285,12 @@ function keepUpdate() {
 		processData: false
 	}).done(function(data) {
 		console.log(data);
+		if(data.length > 0) {
+			var sound = document.getElementById("sound");
+			sound.currentTime = 0;
+			sound.play();
+		}
+
 		var newEvents = $($.parseXML(data));
 		FileSize = newEvents.find("filesize").text() || FileSize;
 
@@ -284,6 +337,7 @@ function keepUpdate() {
 					timestamp: currentValue.timestamp
 				}));
 				addMessageToList(createSystemMessage(`${currentValue.from} enter this room`));
+				showRoomMembers();
 			}
 		});
 		EventList =  EventList.concat(newEventArr);
@@ -312,6 +366,24 @@ function randomRGB() {
 	return `rgb(${r},${g},${b})`;
 }
 
+if(!String.linkify) {
+    String.prototype.linkify = function() {
+
+        // http://, https://, ftp://
+        var urlPattern = /\b(?:https?|ftp):\/\/[a-z0-9-+&@#\/%?=~_|!:,.;]*[a-z0-9-+&@#\/%=~_|]/gim;
+
+        // www. sans http:// or https://
+        var pseudoUrlPattern = /(^|[^\/])(www\.[\S]+(\b|$))/gim;
+
+        // Email addresses
+        var emailAddressPattern = /[\w.]+@[a-zA-Z_-]+?(?:\.[a-zA-Z]{2,6})+/gim;
+
+        return this
+            .replace(urlPattern, '<a href="$&" target="_blank">$&</a>')
+            .replace(pseudoUrlPattern, '$1<a href="http://$2" target="_blank">$2</a>')
+            .replace(emailAddressPattern, '<a href="mailto:$&">$&</a>');
+    };
+}
 
 var fontList = [
 	{ name: 'Default', value: 'inherit' },

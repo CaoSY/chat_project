@@ -148,6 +148,9 @@ body {
 	padding: 0px;
 	margin: 0px;
 }
+.chat-avatar:hover {
+	cursor: pointer;
+}
 .chat-avatar-img {
 	width: 50px;
 	height: 50px;
@@ -223,6 +226,9 @@ body {
 .chat-message {
 	max-width: 70%;
 	position: relative;
+}
+.chat-message a {
+	text-decoration: underline;
 }
 .message-author {
 	font-weight: bold;

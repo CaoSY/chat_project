@@ -17,6 +17,7 @@
 		move_uploaded_file($_FILES["profile"]["tmp_name"], "../data/images/$imgName");
 		$newUser -> addChild("imageSource", $imgName);
 		$newUser -> addChild("online", "false");
+		$newUser -> addChild("authenticate", "false");
 		$userlist -> saveXML("../data/userlist.xml");
 		
 		$eventlist = simplexml_load_file("../data/eventlist.xml") or die("Error: Cannot create object");
