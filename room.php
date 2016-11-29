@@ -168,6 +168,7 @@
 
 			print("var FileSize=".filesize("./data/eventlist.xml").";");
 		?>
+			var NewWindow = null;
 		</script>
 		<audio src="demonstrative.mp3" id="sound"></audio>
 	</body>

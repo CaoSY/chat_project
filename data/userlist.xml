@@ -1,15 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <userlist>
-	<user>
-		<name>AAA</name>
-		<password>69dc6c3210e25e62c5938ff4e841e81ce3c7d2cde583553478a77d7fcb389f30</password>
-		<imageSource>69dc6c3210e25e62c5938ff4e841e81ce3c7d2cde583553478a77d7fcb389f30.jpg</imageSource>
-		<online>false</online>
-	<authenticate>false</authenticate></user>
-	<user>
-		<name>Hello</name>
-		<password>872e4e50ce9990d8b041330c47c9ddd11bec6b503ae9386a99da8584e9bb12c4</password>
-		<imageSource>872e4e50ce9990d8b041330c47c9ddd11bec6b503ae9386a99da8584e9bb12c4.jpg</imageSource>
-		<online>false</online>
-	</user>
-<user><name>BBB</name><password>9d9816fe3f392fcf547d886a4f2d635adf86cbda3e9d8f5e687e42188160ec6d</password><imageSource>9d9816fe3f392fcf547d886a4f2d635adf86cbda3e9d8f5e687e42188160ec6d.jpg</imageSource><online>false</online></user><user><name>CCC</name><password>ea844d76d333957356cfe3aecc4be33cd28297c162327c358a1de3d3c828f46e</password><imageSource>ea844d76d333957356cfe3aecc4be33cd28297c162327c358a1de3d3c828f46e.png</imageSource><online>false</online></user><user><name>renyi</name><password>1468a43e16cb97eb196e508dd7c6c870fa8ce0484632ce85527975532fd7b811</password><imageSource>1468a43e16cb97eb196e508dd7c6c870fa8ce0484632ce85527975532fd7b811.png</imageSource><online>false</online><authenticate>false</authenticate></user></userlist>
+<user><name>AAA</name><password>69dc6c3210e25e62c5938ff4e841e81ce3c7d2cde583553478a77d7fcb389f30</password><imageSource>69dc6c3210e25e62c5938ff4e841e81ce3c7d2cde583553478a77d7fcb389f30.jpg</imageSource><online>false</online><authenticate>false</authenticate></user><user><name>BBB</name><password>9d9816fe3f392fcf547d886a4f2d635adf86cbda3e9d8f5e687e42188160ec6d</password><imageSource>9d9816fe3f392fcf547d886a4f2d635adf86cbda3e9d8f5e687e42188160ec6d.jpg</imageSource><online>false</online><authenticate>false</authenticate></user><user><name>CCC</name><password>ea844d76d333957356cfe3aecc4be33cd28297c162327c358a1de3d3c828f46e</password><imageSource>ea844d76d333957356cfe3aecc4be33cd28297c162327c358a1de3d3c828f46e.png</imageSource><online>false</online><authenticate>false</authenticate></user><user><name>DDD</name><password>fa80828f32474e88325a1d0bd4339bb892b96639543b6a2808a6b30615fbacb7</password><imageSource>fa80828f32474e88325a1d0bd4339bb892b96639543b6a2808a6b30615fbacb7.jpg</imageSource><online>false</online><authenticate>false</authenticate></user></userlist>

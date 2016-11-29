@@ -129,40 +129,47 @@ $(document).ready(function () {
 	});
 	
 	$(".chat-avatar").click(function() {
-		window.open("userstate.php", "_blank", "width=400,height=600");
+		if(NewWindow)
+			NewWindow.close();
+		NewWindow = window.open("userstate.php", "_blank", "width=400,height=600");
 	});
 
 	$(window).on("beforeunload", function(evt) {
-		console.log(evt);
-		evt.returnValue = "You'll log out if you leave this page";
-		return evt;
+		//console.log(evt);
+		//evt.returnValue = "You'll log out if you leave this page";
+		//return evt;
 	});
-	$(window).on("unload", function(evt) {
-		console.log(evt);
-		var logoutObj = new FormData();
-		logoutObj.set("username", User.name);
-		logoutObj.set("timestamp", Date.now());
-		$.ajax({
-			url: "php/logout.php",
-			type: "POST",
-			data: logoutObj,
-			async: false,
-			cache: false,
-			contentType: false,
-			processData: false
-		}).done(function(data) {
-			alert(data);
-			console.log(data);
-			window.location = "index.html";
-		}).fail(function(error) {
-			console.log("fail");
-		}).always(function() {
-
-		});
-	});
+	$(window).on("unload", pageClosed);
 
 	keepUpdate();
 });
+
+function pageClosed(evt) {
+	console.log(evt);
+	var logoutObj = new FormData();
+	logoutObj.set("username", User.name);
+	logoutObj.set("timestamp", Date.now());
+	$.ajax({
+		url: "php/logout.php",
+		type: "POST",
+		data: logoutObj,
+		async: false,
+		cache: false,
+		contentType: false,
+		processData: false
+	}).done(function(data) {
+		alert(data);
+		console.log(data);
+		window.location = "index.html";
+	}).fail(function(error) {
+		console.log("fail");
+	}).always(function() {
+
+	});
+	if(NewWindow) {
+		NewWindow.close();
+	}
+}
 
 function showRoomMembers() {
 	var nameList = [];
@@ -287,8 +294,10 @@ function keepUpdate() {
 		console.log(data);
 		if(data.length > 0) {
 			var sound = document.getElementById("sound");
-			sound.currentTime = 0;
-			sound.play();
+			if(sound) {
+				sound.currentTime = 0;
+				sound.play();
+			}
 		}
 
 		var newEvents = $($.parseXML(data));
