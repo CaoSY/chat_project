@@ -9,7 +9,7 @@ $(document).ready(function () {
 	var evtList = [];
 	for(var evtObj of EventList) {
 		if(evtObj.type == "message") {
-			if(evtObj.from == User.name)
+			if(User && evtObj.from == User.name)
 				evtList.push(createMessageOut(evtObj));
 			else
 				evtList.push(createMessageIn(evtObj));

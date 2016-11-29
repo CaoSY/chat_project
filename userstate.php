@@ -16,20 +16,7 @@
 			<div class="col-xs-12 no-padding">
 				<div style="height: 1px; background-color: #EEEEEE; width: 100%;"></div>
 				<div id="contact-list" class="scrollbar">
-					<!--
-					<div class="contact-list-item">
-						<div class="avatar">
-							<img src="img/default-user-image.svg" class="item-img img-circle center-block" />
-						</div>
-						<div class="item-body">
-							<div class="item-title">
-								<p class="item-name">sed do eiusmod tempo</p>
-								<span class="item-time">2016/11/24</span>
-							</div>
-							<div class="item-info">world</div>
-						</div>
-					</div>
-					-->
+					<!-- -->
 				</div>
 			</div>
 		</div>
@@ -38,6 +25,7 @@
 		<script src="js/common.js"></script>
 		<script src="js/room.js"></script>
 		<script>
+			var User = null;
 		<?php
 			$userlist = simplexml_load_file("./data/userlist.xml") or die("Error: Cannot create object");
 
